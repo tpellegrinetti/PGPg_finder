@@ -7,11 +7,11 @@ PGPg Finder is a versatile command-line tool designed for the annotation of Plan
 The pipeline allows you to choose from several workflows based on the tools and steps you need. The workflows currently available are:
 
 ## Genome Analysis
-genome_wf: A genome annotation pipeline that uses hmmsearch and KEGG profiles.
+genome_wf: A genome annotation pipeline that uses Prodigal for gene prediction and DiAMOND against PLaBAse.
 
 ## Metagenome Analysis
-metafastwf: A metagenome workflow with megahit assembly, Bowtie2 mapping, samtools quantification, and annotation with hmmsearch and KEGG profiles.
-meta_wf: A metagenome workflow with megahit assembly, Bowtie2 mapping, samtools quantification, and PROKKA annotation.
+meta_wf: A metagenome workflow with megahit assembly, Prodigal gene prediction, DIAMOND annotation, Bowtie2 mapping, samtools quantification.
+metafast_wf: A metagenome workflow with PEAR assembly and direct DIAMOND annotation.
 
 
 Each workflow is designed to be run with a specific set of input files and produces a set of output files. The tool also supports running on multiple threads to improve performance.

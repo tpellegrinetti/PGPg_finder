@@ -10,7 +10,7 @@ The pipeline allows you to choose from several workflows based on the tools and 
 genome_wf: A genome annotation pipeline that uses Prodigal for gene prediction and DiAMOND against PLaBAse.
 
 ## Metagenome Analysis
-meta_wf: A metagenome workflow with megahit assembly, Prodigal gene prediction, DIAMOND annotation, Bowtie2 mapping, samtools quantification.
+meta_wf: A metagenome workflow with megahit assembly, Prodigal gene prediction, DIAMOND annotation, Bowtie2 mapping, samtools quantification.  
 metafast_wf: A metagenome workflow with PEAR assembly and direct DIAMOND annotation.
 
 
@@ -61,21 +61,21 @@ Here you can provide your metagenome assemblies with -a option
 # Dependencies
 This tool depends on the following libraries and tools:
 
-Python 3
-Bash
-pear==0.9.6
-Diamond==2.0.14
-Megahit==1.2.9
-Prodigal==2.6.3
-Bowtie2=2.3.5.1
-BBmap==39.01
-Samtools==1.17
-Seaborn==0.12.2
-Scipy==1.7.3
-gawk==5.1.0
-matplotlib==3.3.2
-numpy==1.21.6
-pandas=1.3.5
+Python 3.7.12  
+Bash  
+pear==0.9.6  
+Diamond==2.0.14  
+Megahit==1.2.9  
+Prodigal==2.6.3  
+Bowtie2=2.3.5.1  
+BBmap==39.01  
+Samtools==1.17  
+Seaborn==0.12.2  
+Scipy==1.7.3  
+gawk==5.1.0  
+matplotlib==3.3.2  
+numpy==1.21.6  
+pandas=1.3.5  
 
 # Database PLaBAse
 Moreover, this pipeline was developed based on a curated database called "PLant-associated BActeria web resource (PLaBAse)".

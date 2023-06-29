@@ -1,6 +1,6 @@
 # PGPg_finder
 ![My Image](README/logo.png)
-PGPg Finder is a command-line tool that offers different workflows for genome and metagenome annotation of Plant-Growth Promotion Genes. It's designed to be flexible and easy to use without a necessity to install databases, with several pre-configured workflows to choose from based on the tools and steps you need.
+PGPg Finder is a versatile command-line tool designed for the annotation of Plant-Growth Promotion Traits (PGPT) in both genomes and metagenomes. Rooted in the comprehensive PLant-associated BActeria web resource database (PLaBAse), this tool boasts flexibility and user-friendliness. PGPg Finder offers a range of pre-configured workflows, enabling users to select the tools and processes best suited to their specific research needs.
 
 
 # Features

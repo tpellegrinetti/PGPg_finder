@@ -11,6 +11,7 @@ genome_wf: A genome annotation pipeline that uses Prodigal for gene prediction a
 
 ## Metagenome Analysis
 meta_wf: A metagenome workflow with megahit assembly, Prodigal gene prediction, DIAMOND annotation, Bowtie2 mapping, samtools quantification.  
+
 metafast_wf: A metagenome workflow with PEAR assembly and direct DIAMOND annotation.
 
 

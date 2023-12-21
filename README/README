@@ -4,12 +4,9 @@ PGPg Finder is a command-line tool that offers different workflows for genome an
 Features
 The pipeline allows you to choose from several workflows based on the tools and steps you need. The workflows currently available are:
 
-genomeKO_wf: A genome annotation pipeline that uses hmmsearch and KEGG profiles.
-genomePROKKA_wf: A genome annotation with PROKKA.
-
-metafast_KO_wf: A metagenome workflow with megahit assembly, Bowtie2 mapping, samtools quantification, and annotation with hmmsearch and KEGG profiles.
-meta_PROKKA_wf: A metagenome workflow with megahit assembly, Bowtie2 mapping, samtools quantification, and PROKKA annotation.
-
+genome_wf - Genome annotation with diamond against PGPT-db database of PLaBAse.
+metafast_wf - Fast metagenome direct read annotation with diamond against mgPGPT-db database of PLaBAse.
+meta_wf - Metagenome assembly annotation (diamond) and coverage (Bowtie2, samtools bedtools) with mgPGPT-db database of PLaBAse.
 
 Each workflow is designed to be run with a specific set of input files and produces a set of output files. The tool also supports running on multiple threads to improve performance.
 
@@ -17,10 +14,10 @@ Installation:
 
 To use the tool, you first need to clone the repository and ensure that all dependencies are installed.
 
-git clone github_repository_url
+git clone https://github.com/tpellegrinetti/PGPg_finder
 
 After this procedure, you need to performe the installation of dependancies with conda (recomended).
-The conda will create a separated environment called PGPb_finder.
+The conda will create a separated environment called PGPg_finder.
 
 bash install.sh
 
@@ -33,26 +30,19 @@ Then, you can run the tool using the following command:
 python PGPb_finder.py -w workflow -i input_directory -o output_directory -t threads -a assembly_file (optional)
 
 
-1) Running PGPb_finder with genomes:
+1) Running PGPg_finder with genomes:
 
-a) PROKKA annotation:
+python PGPg_finder.py -w genome_wf -i /path/to/fasta/ -o /path/to/your/desired/out/ -t {number_of_threads}
 
-python PGPb_finder.py -w genomePROKKA_wf -i /path/to/fasta/ -o /path/to/your/desired/out/ -t 12
-
-b) KO annotation:
-
-python PGPb_finder.py -w genomeKO_wf -i /path/to/fasta/ -o /path/to/your/desired/out/ -t 12
-
-
-2) Running PGPb_finder with metagenomes:
+2) Running PGPg_finder with metagenomes:
  
-a) PROKKA annotation 
+a) Fast way 
 
-python PGPb_finder.py -w meta_PROKKA_wf -i /path/to/fasta/ -o /path/to/your/desired/out/ -t 12
+python PGPg_finder.py -w metafast_wf -i /path/to/fastq/ -o /path/to/your/desired/out/ -t {number_of_threads}
 
-b) KO annotation 
+b) Slow way (but more precise) 
 
-python PGPb_finder.py -w meta_fast_wf -i /path/to/fasta/ -o /path/to/your/desired/out/ -t 12
+python PGPg_finder.py -w meta_wf -i /path/to/fastq/ -o /path/to/your/desired/out/ -t {number_of_threads}
 
 
 For help with the arguments, you can use the command python PGPb_finder -h.
@@ -70,12 +60,13 @@ Salmon
 BBmap
 PROKKA
 
-Moreover, this pipeline was created with a curated database called "PLant-associated BActeria web resource (PLaBAse)".
+Moreover, this pipeline was created with a curated database called "PLant-associated BActeria web resource (PLaBAse)" https://plabase.cs.uni-tuebingen.de/pb/plabase.php.
 We encourage you to cite the PLaBAse:
 
 Patz S, Gautam A, Becker M, Ruppel S, Rodríguez-Palenzuela P, Huson DH. PLaBAse: A comprehensive web resource for analyzing the plant growth-promoting potential of plant-associated bacteria. (submitted 2021, meanwhile you can read the preprint)
+Ashrafi S, Kuzmanovic N, Patz S, Lohwasser U, Bunk B, Spröer C, Lorenz M, Frühling A, Neumann-Schaal M, Verbarg S, Becker M, Thünen T. Two new Rhizobiales species isolated from root nodules of common sainfoin (Onobrychis viciifolia) show different plant colonization strategies. Microbiol Spectr. 2022
 
-If PGPb_finder was useful for you cite us:
+If PGPg_finder was useful for you cite us:
 
-Pellegrinetti, TA; Monteiro, G; Lemos, LN; Tsai, SM; Mendes, L. PGP_finder: A Pipeline for Uncovering and Comparing Plant Growth Promoting Genes from Genomic and Metagenomic Data. 
+Pellegrinetti, TA; Monteiro, G; Lemos, LN; Tsai, SM; Mendes, L. PGPg_finder: A Comprehensive and User-friendly Pipeline for Identifying Plant Growth-Promoting Genes in Genomic and Metagenomic Data
 

@@ -40,8 +40,11 @@ while getopts "i:o:t:h" option; do
     esac
 done
 
+# Obtenha o caminho do diretório onde o script está sendo executado
+script_dir=$(dirname "$(dirname "$(readlink -f "$0")")")
+
 # Path to the DIAMOND database
-diamond_db="database/genome.dmnd"
+diamond_db="$script_dir/database/genome.dmnd"
 
 # Check if all required options were provided
 if [ -z "$genomes_dir" ] || [ -z "$out_dir" ] || [ -z "$threads" ]; then
@@ -91,8 +94,8 @@ for genome in "${genome_files[@]}"; do
 done
 
 # Python script to generate the heatmaps
-heatmap_script="vis-scripts/heatmap_plabase.py"
-python "$heatmap_script" "${gene_counts_file}" "${out_dir}" database/pathways_plabase.txt
+heatmap_script="$script_dir/vis-scripts/heatmap_plabase.py"
+python "$heatmap_script" "${gene_counts_file}" "${out_dir}" "$script_dir/database/pathways_plabase.txt" "$script_dir/database/summary.txt"
 log "Generated heatmaps"
 
 log "Gene search and heatmap generation completed. Check ${out_dir}/gene_counts.txt for the results."

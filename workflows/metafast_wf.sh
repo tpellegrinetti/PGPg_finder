@@ -34,8 +34,11 @@ while getopts i:o:t:a:h opt; do
   esac
 done
 
+# Obtenha o caminho do diretório onde o script está sendo executado
+script_dir=$(dirname "$(dirname "$(readlink -f "$0")")")
+
 # Path to the DIAMOND database
-diamond_db="database/metagenome.dmnd"
+diamond_db="$script_dir/database/metagenome.dmnd"
 
 # Verify if required arguments were provided
 if [ -z "$reads_dir" ] || [ -z "$out_dir" ] || [ -z "$threads" ] || [ -z "$diamond_db" ]; then
@@ -67,7 +70,7 @@ for reads_1 in $reads_dir/*_1.*; do
     if [ -f "$read_file_2" ]; then
         # Paired-end reads
         # Merge paired reads with PEAR
-        pear -f ${read_file_1} -r ${read_file_2} -o ${out_dir}/${sample}_merged -j ${threads}
+        pear -f ${read_file_1} -r ${read_file_2} -o ${out_dir}/${sample}_merged -j ${threads} -q 20
         log "Merged paired reads for sample $sample"
 
         # Run DIAMOND
@@ -100,6 +103,6 @@ done
 log "Gene search is completed. Check ${gene_counts_file} for the results."
 
 # Python script to generate the heatmaps
-python vis-scripts/heatmap_plabase.py ${gene_counts_file} ${out_dir} database/pathways_plabase.txt
+python "$heatmap_script" "${gene_counts_file}" "${out_dir}" "$script_dir/database/pathways_plabase.txt" "$script_dir/database/summary.txt"
 log "Generated heatmaps"
 

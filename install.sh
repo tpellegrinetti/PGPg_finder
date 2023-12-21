@@ -1,10 +1,10 @@
 #!/bin/bash
 
 # Welcome message
-echo "Hello, welcome to the PGPB_finder!"
+echo "Hello, welcome to the PGPg_finder!"
 echo "This pipeline finds plant growth-promoting genes in your metagenomes or genomes."
-echo "This tool was developed by Dr. Thierry Pellegrinetti."
-echo "If this tool proves useful to you, please cite: PGPg_finder."
+echo "This tool was developed by Pellegrinetti et. al"
+echo "If this tool proves useful to you, please cite: Pellegrinetti, TA; Monteiro, G; Lemos, LN; Santos, RAC, Tsai, SM; Mendes, L. PGPg_finder: A Comprehensive and User-friendly Pipeline for Identifying Plant Growth-Promoting Genes in Genomic and Metagenomic Data"
 echo ""
 
 # Create a new conda environment
@@ -19,16 +19,6 @@ echo "Now, let's install the dependencies..."
 conda install -c bioconda diamond megahit bowtie2 samtools gawk pear -y
 conda install pandas seaborn matplotlib
 echo "Dependencies installed successfully!"
-echo ""
-
-# Verify that all programs were installed correctly
-echo "Verifying if all dependencies were installed correctly..."
-prokka --version
-megahit --version
-bwa
-samtools --version
-awk --version
-echo "All dependencies are installed and working correctly!"
 echo ""
 
 echo "To use PGPB_finder, activate the conda environment using:"
@@ -52,9 +42,8 @@ echo "Downloading metagenome database..."
 wget https://plabase.cs.uni-tuebingen.de/pb/tools/PGPTblhm/data/factors/mgPGPT/mgPGPT-db_Feb2022_ul_dwnld.fasta.gz
 
 echo "Databases downloaded successfully."
-
+echo ""
 echo "Decompressing database"
-
 gzip -d *.gz
 
 ###Making diamond databases

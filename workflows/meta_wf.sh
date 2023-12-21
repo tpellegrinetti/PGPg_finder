@@ -36,8 +36,11 @@ while getopts i:o:t:a:h opt; do
   esac
 done
 
+# Obtenha o caminho do diretório onde o script está sendo executado
+script_dir=$(dirname "$(dirname "$(readlink -f "$0")")")
+
 # Path to the DIAMOND database
-diamond_db="database/metagenome.dmnd"
+diamond_db="$script_dir/database/metagenome.dmnd"
 
 # Verify if required arguments were provided
 if [ -z "$reads_dir" ] || [ -z "$out_dir" ] || [ -z "$threads" ]; then
@@ -94,15 +97,15 @@ for reads in $reads_dir/*_1.*; do
 
     #Calculate gene abundance coverage
     log "Generate contig coverage $sample"
-    python vis-scripts/gene_relative_abundance.py -p ${out_dir}/${sample}.pileup -b ${sample} -o ${out_dir}
+    python "$script_dir/vis-scripts/gene_relative_abundance.py" -p ${out_dir}/${sample}.pileup -b ${sample} -o ${out_dir}
     
     #Get diamond out results with contigs
     log "Generate contig and gene for $sample"
-    python vis-scripts/merge_blastp.py -b ${out_dir}/${sample}_diamond.txt -o ${out_dir}/${sample}_diamond_table.txt
+    python "$script_dir/vis-scripts/merge_blastp.py" -b ${out_dir}/${sample}_diamond.txt -o ${out_dir}/${sample}_diamond_table.txt
 
     #Merge table to obtain Sample - ID - Count
     log "Merge contig and coverage with blastp result $sample"
-    python vis-scripts/merge_abund_blastp.py -a ${out_dir}/${sample}.abundance -b ${out_dir}/${sample}_diamond_table.txt -o ${out_dir}/diamond_merged.txt
+    python "$script_dir/vis-scripts/merge_abund_blastp.py" -a ${out_dir}/${sample}.abundance -b ${out_dir}/${sample}_diamond_table.txt -o ${out_dir}/diamond_merged.txt
 
       # Moving files
     log "Moving Files"
@@ -145,5 +148,6 @@ log "Gene search is completed. Check ${gene_counts_file} for the results."
 
 # Python script to generate the heatmaps
 log "Generating heatmaps"
-python vis-scripts/heatmap_plabase.py ${out_dir}/diamond_merged.txt ${out_dir} database/pathways_plabase.txt
+python "$script_dir/vis-scripts/heatmap_plabase.py" ${out_dir}/diamond_merged.txt ${out_dir} "$script_dir/database/pathways_plabase.txt" "$script_dir/database/summary.txt"
+
 

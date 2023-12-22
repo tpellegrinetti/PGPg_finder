@@ -103,6 +103,7 @@ done
 log "Gene search is completed. Check ${gene_counts_file} for the results."
 
 # Python script to generate the heatmaps
+heatmap_script="$script_dir/vis-scripts/heatmap_plabase.py"
 python "$heatmap_script" "${gene_counts_file}" "${out_dir}" "$script_dir/database/pathways_plabase.txt" "$script_dir/database/summary.txt"
 log "Generated heatmaps"
 

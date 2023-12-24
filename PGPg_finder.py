@@ -2,7 +2,7 @@
 
 import argparse
 import subprocess
-import os  # Import the os library
+import os
 
 # Get the path of the directory where the script is being executed
 dir_path = os.path.dirname(os.path.realpath(__file__))

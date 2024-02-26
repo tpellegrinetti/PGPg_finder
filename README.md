@@ -21,9 +21,9 @@ Each workflow is designed to be run with a specific set of input files and produ
 # Installation:
 
 To use the tool, you first need to clone the repository and ensure that all dependencies are installed.
-```
+
 git clone https://github.com/tpellegrinetti/PGPg_finder/
-```
+
 After this procedure, you need to performe the installation of dependancies with conda (recomended).
 The conda will create a separated environment called PGPb_finder.
 

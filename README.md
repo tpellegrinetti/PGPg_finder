@@ -63,7 +63,8 @@ Here you can provide your metagenome assemblies with -a option
 This tool depends on the following libraries and tools:
 
 Python 3.7.12  
-Bash  
+Bash
+Trimmomatic==0.39
 pear==0.9.6  
 Diamond==2.0.14  
 Megahit==1.2.9  

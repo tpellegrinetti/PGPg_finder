@@ -85,7 +85,8 @@ Acess PLaBAse website: https://plabase.cs.uni-tuebingen.de/
 
 We encourage you to cite the PLaBAse:
 
-Patz S, Gautam A, Becker M, Ruppel S, Rodríguez-Palenzuela P, Huson DH. PLaBAse: A comprehensive web resource for analyzing the plant growth-promoting potential of plant-associated bacteria. (submitted 2021, meanwhile you can read the preprint)
+Patz S, Rauh M, Gautam A, Huson DH. mgPGPT: Metagenomic analysis of plant growth-promoting traits.(submitted, 2024, preprint)
+Patz S, Gautam A, Becker M, Ruppel S, Rodríguez-Palenzuela P, Huson DH. PLaBAse: A comprehensive web resource for analyzing the plant growth-promoting potential of plant-associated bacteria. (submitted 2021, preprint)
 
 If PGPb_finder was useful for you please cite us:
 

@@ -89,13 +89,12 @@ for genome in "${genome_files[@]}"; do
     log "Processing sample ${sample}..."
 
     # Run prodigal to generate protein sequences
-    #prodigal -i "${genome}" -a "${out_dir}/${sample}_proteins.fa" -p single
+    prodigal -i "${genome}" -a "${out_dir}/${sample}_proteins.fa" -p single
     log "Generated protein sequences for sample ${sample}"
 
     # Run DIAMOND with the mode flag if provided
     echo $diamond_mode_flag
-    diamond blastp -d "${diamond_db}" -q "${genome}" -o "${out_dir}/${sample}_diamond.txt" -k 1 -e 0.0001 -p "${threads}" $diamond_mode_flag
-    #diamond blastp -d "${diamond_db}" -q "${out_dir}/${sample}_proteins.fa" -o "${out_dir}/${sample}_diamond.txt" -k 1 -e 0.0001 -p "${threads}" $diamond_mode_flag
+    diamond blastp -d "${diamond_db}" -q "${out_dir}/${sample}_proteins.fa" -o "${out_dir}/${sample}_diamond.txt" -k 1 -e 0.0001 -p "${threads}" $diamond_mode_flag
     log "Completed DIAMOND search for sample ${sample}"
 
     # Count the number of genes that match and print the occurrence count

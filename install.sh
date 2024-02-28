@@ -16,7 +16,7 @@ echo ""
 
 # Install necessary programs
 echo "Now, let's install the dependencies..."
-conda install -c bioconda diamond megahit bowtie2 samtools gawk pear trimmomatic -y
+conda install -c bioconda prodigal diamond megahit bowtie2 samtools gawk pear trimmomatic -y
 conda install pandas seaborn matplotlib
 echo "Dependencies installed successfully!"
 echo ""

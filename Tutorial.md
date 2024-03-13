@@ -1,5 +1,5 @@
 # Tutorial
-## First steps
+## 1. First steps
 * create a directory for PGPg_finder
 ```bash
 mkdir pgpg
@@ -8,6 +8,7 @@ mkdir pgpg
 ```bash
 cd pgpg
 ```
+### 1.1. Instalation
 * Copy the archives for your computer
 ```bash
 git clone https://github.com/tpellegrinetti/PGPg_finder.git

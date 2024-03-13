@@ -35,7 +35,7 @@ If conda not work for you, you can install the dependences mannualy without a se
 
 if you want to learn how to use the PGPg_finder, click the link below:
 
-[Tutorial]((https://github.com/tpellegrinetti/PGPg_finder/blob/main/Tutorial.md))
+[Tutorial](https://github.com/tpellegrinetti/PGPg_finder/blob/main/Tutorial.md)
 
 
 You can run the PGPg_finder tool using the following command:

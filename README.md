@@ -21,17 +21,19 @@ Each workflow is designed to be run with a specific set of input files and produ
 # Installation:
 
 To use the tool, you first need to clone the repository and ensure that all dependencies are installed.
-
+```bash
 git clone https://github.com/tpellegrinetti/PGPg_finder/
-
+```
 After this procedure, you need to performe the installation of dependancies with conda (recomended).
 The conda will create a separated environment called PGPb_finder.
-
-`bash install.sh`
-
+```bash
+bash install.sh
+```
 If conda not work for you, you can install the dependences mannualy without a separeted environment and run PGPb_finder (not recomended).
 
 # Usage:
+
+if you want to learn how to use the PGPg_finder, click the link below:
 
 You can run the PGPg_finder tool using the following command:
 
@@ -62,22 +64,22 @@ Here you can provide your metagenome assemblies with -a option
 # Dependencies
 This tool depends on the following libraries and tools:
 
-Python 3.7.12  
-Bash
-Trimmomatic==0.39
-pear==0.9.6  
-Diamond==2.0.14  
-Megahit==1.2.9  
-Prodigal==2.6.3  
-Bowtie2=2.3.5.1  
-BBmap==39.01  
-Samtools==1.17  
-Seaborn==0.12.2  
-Scipy==1.7.3  
-gawk==5.1.0  
-matplotlib==3.3.2  
-numpy==1.21.6  
-pandas=1.3.5  
+* Python 3.7.12
+* Bash
+* Trimmomatic==0.39
+* pear==0.9.6
+* Diamond==2.0.14
+* Megahit==1.2.9
+* Prodigal==2.6.3
+* Bowtie2=2.3.5.1
+* BBmap==39.01
+* Samtools==1.17
+* Seaborn==0.12.2
+* Scipy==1.7.3
+* gawk==5.1.0
+* matplotlib==3.3.2
+* numpy==1.21.6
+* pandas=1.3.5  
 
 # Database PLaBAse
 Moreover, this pipeline was developed based on a curated database called "PLant-associated BActeria web resource (PLaBAse)".

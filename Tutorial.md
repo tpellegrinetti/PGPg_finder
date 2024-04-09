@@ -21,3 +21,8 @@ cd PGPg_finder
 ```bash
 bash install.sh
 ```
+## 2. Executing the PGPg
+* genomes example
+```bash
+python PGPg_finder.py -w genome_wf -i genome_example/ -o genomeresult -t 12
+```

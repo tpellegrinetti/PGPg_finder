@@ -21,8 +21,14 @@ cd PGPg_finder
 ```bash
 bash install.sh
 ```
-## 2. Executing the PGPg
+## 2. Executing the PGPg for genomes
 * genomes example
 ```bash
 python PGPg_finder.py -w genome_wf -i genome_example/ -o genomeresult -t 12
 ```
+* general comand
+  
+```bash
+python PGPb_finder.py -w workflow -i input_directory -o output_directory -t threads
+```
+**the "-a" argument is optional and works if you want to provide assembly files**

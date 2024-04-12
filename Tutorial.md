@@ -1,6 +1,6 @@
 # Tutorial
 ## 1. First steps
-* create a directory for PGPg_finder
+* Create a directory for PGPg_finder
 ```bash
 mkdir pgpg
 ```
@@ -22,13 +22,22 @@ cd PGPg_finder
 bash install.sh
 ```
 ## 2. Executing the PGPg for genomes
-* genomes example
+* General comand
 ```bash
-python PGPg_finder.py -w genome_wf -i genome_example/ -o genomeresult -t 12
+python PGPb_finder.py -w genome_wf -i input_directory -o output_directory -t threads
 ```
-* general comand
-  
+
+* Genomes example
 ```bash
-python PGPb_finder.py -w workflow -i input_directory -o output_directory -t threads
+python PGPg_finder.py -w genome_wf -i genome_example/ -o genomeresult -t 22
 ```
-**the "-a" argument is optional and works if you want to provide assembly files**
+* **The "-a" argument is optional and works if you want to provide assembly files**
+* **Is not necessary create output folder before run the workflow**
+* 
+## 3. Executing the PGPg for metagenomes
+### 3.1 greater accuracy
+
+* General comand
+  ```bash
+  python PGPb_finder.py -w meta_wf -i input_directory -o output_directory -t threads
+  ```

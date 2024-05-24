@@ -105,9 +105,10 @@ https://plabase.cs.uni-tuebingen.de/pb/tools/PGPTblhm/data/factors/PGPT_BASE_nr_
 https://plabase.cs.uni-tuebingen.de/pb/tools/PGPTblhm/data/factors/mgPGPT/mgPGPT-db_Feb2022_ul_dwnld.fasta.gz
 
 Place these files in the database folder of PGPg_finder and run the following commands:
-
-diamond makedb --in PGPT_BASE_nr_Aug2021n_ul_1.fasta --db genome
-diamond makedb --in mgPGPT-db_Feb2022_ul_dwnld.fasta --db metagenome
+```
+diamond makedb --in PGPT_BASE_nr_Aug2021n_ul_1.fasta.gz --db genome
+diamond makedb --in mgPGPT-db_Feb2022_ul_dwnld.fasta.gz --db metagenome
+```
 
 You will get two .dmnd files. If desired, you can remove the .fasta.gz files
 

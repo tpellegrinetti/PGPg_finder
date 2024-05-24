@@ -95,4 +95,20 @@ Patz S, Gautam A, Becker M, Ruppel S, Rodríguez-Palenzuela P, Huson DH. PLaBAse
 
 If PGPb_finder was useful for you please cite us:
 
-Pellegrinetti, TA; Monteiro, G; Lemos, LN; Tsai, SM; Mendes, L. PGP_finder: PGPg_finder: A Comprehensive and User-friendly Pipeline for Identifying Plant Growth-Promoting Genes in Genomic and Metagenomic Data. 
+Pellegrinetti, TA; Monteiro, G; Lemos, LN; Mendes, L. PGP_finder: PGPg_finder: A Comprehensive and User-friendly Pipeline for Identifying Plant Growth-Promoting Genes in Genomic and Metagenomic Data. 
+
+# Issues in Database Downloading
+If you are having trouble downloading the database, you can download it manually here:
+
+https://plabase.cs.uni-tuebingen.de/pb/tools/PGPTblhm/data/factors/PGPT_BASE_nr_Aug2021n_ul_1.fasta.gz
+https://plabase.cs.uni-tuebingen.de/pb/tools/PGPTblhm/data/factors/mgPGPT/mgPGPT-db_Feb2022_ul_dwnld.fasta.gz
+
+Place these files in the database folder of PGPg_finder and run the following commands:
+
+diamond makedb --in PGPT_BASE_nr_Aug2021n_ul_1.fasta --db genome
+diamond makedb --in mgPGPT-db_Feb2022_ul_dwnld.fasta --db metagenome
+
+You will get two .dmnd files. If desired, you can remove the .fasta.gz files
+
+# Contact for more information
+For dedicated support with running PGPg_finder, please contact: tpellegrinetti@usp.br

@@ -101,6 +101,7 @@ Pellegrinetti, TA; Monteiro, G; Lemos, LN; Mendes, L. PGP_finder: PGPg_finder: A
 If you are having trouble downloading the database, you can download it manually here:
 
 https://plabase.cs.uni-tuebingen.de/pb/tools/PGPTblhm/data/factors/PGPT_BASE_nr_Aug2021n_ul_1.fasta.gz
+
 https://plabase.cs.uni-tuebingen.de/pb/tools/PGPTblhm/data/factors/mgPGPT/mgPGPT-db_Feb2022_ul_dwnld.fasta.gz
 
 Place these files in the database folder of PGPg_finder and run the following commands:

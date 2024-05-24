@@ -43,7 +43,7 @@ while getopts i:o:t:m:h opt; do
   esac
 done
 
-# Obtenha o caminho do diretório onde o script está sendo executado
+# Get the directory path where the script is running
 script_dir=$(dirname "$(dirname "$(readlink -f "$0")")")
 
 # Path to the DIAMOND database

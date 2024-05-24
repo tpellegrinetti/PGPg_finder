@@ -45,7 +45,7 @@ while getopts i:o:t:a:m:h opt; do
   esac
 done
 
-# Obtenha o caminho do diretório onde o script está sendo executado
+# Get the directory path where the script is running
 script_dir=$(dirname "$(dirname "$(readlink -f "$0")")")
 
 # Path to the DIAMOND database
@@ -122,10 +122,10 @@ for reads_1 in $reads_dir/*_1.*; do
     else
         # Use the provided assembly
         log "Using provided assembly for sample $sample"
-        assembly=$(ls ${assembly_dir}/*.fasta)
+        assembly=$(ls ${assembly_dir}/${sample}.*)
     fi
     
-    # Run prokka to generate protein and annotate sequences
+    # Run prodigal to generate protein and annotate sequences
     log "Generating protein sequences for sample $sample"
     prodigal -i ${assembly} -q -a ${out_dir}/${sample}_proteins.faa -o ${out_dir}/${sample}_genes.gbk -d ${out_dir}/${sample}_nucleotide.ffn -p meta
    

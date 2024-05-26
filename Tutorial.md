@@ -24,7 +24,7 @@ bash install.sh
 ## 2. Executing the PGPg for genomes
 * General comand
 ```bash
-python PGPb_finder.py -w genome_wf -i input_directory -o output_directory -t threads
+python PGPg_finder.py -w genome_wf -i input_directory -o output_directory -t threads
 ```
 
 * Genomes example
@@ -39,5 +39,5 @@ python PGPg_finder.py -w genome_wf -i genome_example/ -o genomeresult -t 22
 
 * General comand
   ```bash
-  python PGPb_finder.py -w meta_wf -i input_directory -o output_directory -t threads
+  python PGPg_finder.py -w meta_wf -i input_directory -o output_directory -t threads
   ```

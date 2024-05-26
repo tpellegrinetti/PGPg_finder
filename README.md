@@ -25,11 +25,11 @@ To use the tool, you first need to clone the repository and ensure that all depe
 git clone https://github.com/tpellegrinetti/PGPg_finder/
 ```
 After this procedure, you need to performe the installation of dependancies with conda (recomended).
-The conda will create a separated environment called PGPb_finder.
+The conda will create a separated environment called PGPg_finder.
 ```bash
 bash install.sh
 ```
-If conda not work for you, you can install the dependences mannualy without a separeted environment and run PGPb_finder (not recomended).
+If conda not work for you, you can install the dependences mannualy without a separeted environment and run PGPg_finder (not recomended).
 
 # Usage:
 
@@ -40,25 +40,25 @@ if you want to learn how to use the PGPg_finder, click the link below:
 
 You can run the PGPg_finder tool using the following command:
 
-`python PGPb_finder.py -w workflow -i input_directory -o output_directory -t threads`
+`python PGPg_finder.py -w workflow -i input_directory -o output_directory -t threads`
 
 the -a argument is optional and works if you want to provide assembly files
 
 
 1) Running PGPb_finder with genomes:
 
-`python PGPb_finder.py -w genome_wf -i /path/to/fasta/folder/ -o /path/to/your/desired/out/ -t 12`
+`python PGPg_finder.py -w genome_wf -i /path/to/fasta/folder/ -o /path/to/your/desired/out/ -t 12`
 
 
 2) Running PGPb_finder with metagenomes:
  
 a) Fast way (less accurated)
 
-`python PGPb_finder.py -w metafast_wf -i /path/to/fasta/folder -o /path/to/your/desired/out/ -t 12`
+`python PGPg_finder.py -w metafast_wf -i /path/to/fasta/folder -o /path/to/your/desired/out/ -t 12`
 
 b) Slow way (more accurated) 
 
-`python PGPb_finder.py -w meta_wf -i /path/to/fasta/folder -o /path/to/your/desired/out/ -t 12`
+`python PGPg_finder.py -w meta_wf -i /path/to/fasta/folder -o /path/to/your/desired/out/ -t 12`
 
 Here you can provide your metagenome assemblies with -a option
 
@@ -85,17 +85,18 @@ This tool depends on the following libraries and tools:
 * pandas=1.3.5  
 
 # Database PLaBAse
-Moreover, this pipeline was developed based on a curated database called "PLant-associated BActeria web resource (PLaBAse)".
+Please, note that this pipeline was developed based on a curated database called "PLant-associated BActeria web resource (PLaBAse)".
 Acess PLaBAse website: https://plabase.cs.uni-tuebingen.de/
 
 We encourage you to cite the PLaBAse:
 
 Patz S, Rauh M, Gautam A, Huson DH. mgPGPT: Metagenomic analysis of plant growth-promoting traits.(submitted, 2024, preprint)
+
 Patz S, Gautam A, Becker M, Ruppel S, Rodríguez-Palenzuela P, Huson DH. PLaBAse: A comprehensive web resource for analyzing the plant growth-promoting potential of plant-associated bacteria. (submitted 2021, preprint)
 
-If PGPb_finder was useful for you please cite us:
+If PGPg_finder was useful for you please cite us:
 
-Pellegrinetti, TA; Monteiro, G; Lemos, LN; Mendes, L. PGP_finder: PGPg_finder: A Comprehensive and User-friendly Pipeline for Identifying Plant Growth-Promoting Genes in Genomic and Metagenomic Data. 
+Pellegrinetti, TA; Monteiro, G; Lemos, LN; RAC, Santos; Barros, A; Mendes, L. (2024) PGPg_finder: A Comprehensive and User-friendly Pipeline for Identifying Plant Growth-Promoting Genes in Genomic and Metagenomic Data. Rhizosphere.
 
 # Issues in Database Downloading
 If you are having trouble downloading the database, you can download it manually here:
@@ -113,4 +114,6 @@ diamond makedb --in mgPGPT-db_Feb2022_ul_dwnld.fasta.gz --db metagenome
 You will get two .dmnd files. If desired, you can remove the .fasta.gz files
 
 # Contact for more information
+If you have problems to download the PLaBAse database, or any other installation issues, please contact us.
+
 For dedicated support with running PGPg_finder, please contact: tpellegrinetti@usp.br

@@ -45,12 +45,12 @@ You can run the PGPg_finder tool using the following command:
 the -a argument is optional and works if you want to provide assembly files
 
 
-1) Running PGPb_finder with genomes:
+1) Running PGPg_finder with genomes:
 
 `python PGPg_finder.py -w genome_wf -i /path/to/fasta/folder/ -o /path/to/your/desired/out/ -t 12`
 
 
-2) Running PGPb_finder with metagenomes:
+2) Running PGPg_finder with metagenomes:
  
 a) Fast way (less accurated)
 

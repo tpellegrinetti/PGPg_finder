@@ -2,112 +2,144 @@
 
 # Function to display help
 display_help() {
-    echo "Usage: $0 -i <input_directory> -o <output_directory> -t <threads> [-m <mode>]"
+    echo "PGPg_finder v1.1.0 | by Thierry Pellegrinetty <thierry.pellegrinetti@hotmail.com>"
+    echo "Check https://github.com/tpellegrinetti/PGPg_finder for updates"
+    echo "Usage: $0 -i <input_directory> -o <output_directory> -t <threads> [--piden <min_identity>] [--qcov <min_query_cover>] [--extra <extra_args>] [--bitscore <min_score>] [--evalue <evalue>] [--mode <mode>] [-h]"
     echo
     echo "This script performs gene search with DIAMOND on a collection of genomes,"
     echo "generates a gene count table, and creates gene presence/absence heatmaps."
     echo "Results are saved to the output directory."
     echo
     echo "Arguments:"
-    echo "  -i    Path to the directory containing genome files (.fasta, .fna, .fa)."
-    echo "  -o    Path to the directory where results will be saved."
-    echo "  -t    Number of CPU threads to be used in the pipeline."
-    echo "  -m    (Optional) DIAMOND mode for sequence search."
+    echo "  -i        Path to the directory containing genome files (.fasta, .fna, .fa)."
+    echo "  -o        Path to the directory where results will be saved."
+    echo "  -t        Number of CPU threads to be used in the pipeline."
     echo
+    echo "Optional Arguments:"
+    echo "  --piden     Minimum identity for DIAMOND (default: 30)."
+    echo "  --qcov      Minimum query coverage for DIAMOND (default: 50)."
+    echo "  --extra     Additional DIAMOND arguments (optional)."
+    echo "  --bitscore  Minimum bit score to report alignments."
+    echo "  --evalue    Maximum e-value to report alignments (default: 1e-5)."
+    echo "  --dmode      DIAMOND mode for sequence search (e.g., fast, sensitive, very-sensitive)."
+    echo "  -h          Display this help message."
 }
 
-# Function to log messages
+# Log function
 log() {
     local timestamp=$(date +"%Y-%m-%d %H:%M:%S")
     echo "[${timestamp}] $1" | tee -a "$log_file"
 }
 
-# Check if no argument was provided
-if [ $# -eq 0 ]; then
+# Parse long and short options using `getopt`
+ARGS=$(getopt -o i:o:t:h --long piden:,qcov:,extra:,bitscore:,evalue:,dmode:,help -n "$0" -- "$@")
+if [ $? -ne 0 ]; then
+    display_help
+    exit 1
+fi
+eval set -- "$ARGS"
+
+# Default values
+min_identity=30
+min_query_cover=50
+diamond_extra=""
+min_score=""
+evalue="1e-5"
+diamond_mode=""
+
+# Parse options
+while true; do
+    case "$1" in
+        -i) genomes_dir=$2; shift 2 ;;
+        -o) out_dir=$2; shift 2 ;;
+        -t) threads=$2; shift 2 ;;
+        --piden) min_identity=$2; shift 2 ;;
+        --qcov) min_query_cover=$2; shift 2 ;;
+        --extra) diamond_extra=$2; shift 2 ;;
+        --bitscore) min_score=$2; shift 2 ;;
+        --evalue) evalue=$2; shift 2 ;;
+        --dmode) diamond_mode=$2; shift 2 ;;
+        -h|--help) display_help; exit 0 ;;
+        --) shift; break ;;
+        *) display_help; exit 1 ;;
+    esac
+done
+
+# Validation of required arguments
+if [ -z "$genomes_dir" ] || [ -z "$out_dir" ] || [ -z "$threads" ]; then
+    log "Error: Missing required arguments."
     display_help
     exit 1
 fi
 
-# Read command line options
-diamond_mode=""
-while getopts "i:o:t:m:h" option; do
-    case $option in
-        i) genomes_dir=$OPTARG ;;
-        o) out_dir=$OPTARG ;;
-        t) threads=$OPTARG ;;
-        m) diamond_mode=$OPTARG ;;
-        h) display_help
-           exit 0 ;;
-        *) display_help
-           exit 1 ;;
-    esac
-done
-
-# Obtenha o caminho do diretório onde o script está sendo executado
+# Check if DIAMOND database exists
 script_dir=$(dirname "$(dirname "$(readlink -f "$0")")")
-
-# Path to the DIAMOND database
 diamond_db="$script_dir/database/genome.dmnd"
 
-# Check if all required options were provided
-if [ -z "$genomes_dir" ] || [ -z "$out_dir" ] || [ -z "$threads" ]; then
-    log "Error: All options are required."
-    display_help
+if [ ! -f "$diamond_db" ]; then
+    log "Error: DIAMOND database not found at $diamond_db."
     exit 1
 fi
 
 # Create output directory if it doesn't exist
-if [ ! -d "$out_dir" ]; then
-    mkdir -p "$out_dir"
-    log "Created output directory: $out_dir"
-fi
-
-# Create log file
+mkdir -p "$out_dir"
 log_file="${out_dir}/log.txt"
 touch "$log_file"
 
-# Check if diamond_mode is set and add it to the DIAMOND command
-if [ ! -z "$diamond_mode" ]; then
-    diamond_mode_flag="--$diamond_mode"
-else
-    diamond_mode_flag=""
-fi
-
-# Find all genome files with .fasta, .fna, or .fa extensions
+# Find genome files
 genome_files=($(find "$genomes_dir" -type f \( -name "*.fasta" -o -name "*.fna" -o -name "*.fa" \)))
 
-# Create a file to store gene counts
+if [ ${#genome_files[@]} -eq 0 ]; then
+    log "Error: No genome files found in $genomes_dir."
+    exit 1
+fi
+
+# Process each genome file
 gene_counts_file="${out_dir}/gene_counts.txt"
 echo -e "Sample\tID\tCount" > "$gene_counts_file"
-log "Created gene counts file: $gene_counts_file"
 
-# Iterate over each genome file
 for genome in "${genome_files[@]}"; do
-    sample=$(basename "${genome}" .fasta)
-    sample=$(basename "${sample}" .fna)
-    sample=$(basename "${sample}" .fa)
+    sample=$(basename "${genome%.*}")
     log "Processing sample ${sample}..."
 
-    # Run prodigal to generate protein sequences
+    # Run prodigal
     prodigal -i "${genome}" -a "${out_dir}/${sample}_proteins.fa" -p single
-    log "Generated protein sequences for sample ${sample}"
+    if [ $? -ne 0 ]; then
+        log "Error: Prodigal failed for ${sample}."
+        exit 1
+    else
+        log "Generated protein sequences for sample ${sample}"
+    fi
+    
+    # Run DIAMOND
+    diamond blastp -d "$diamond_db" \
+        -q "${out_dir}/${sample}_proteins.fa" \
+        -o "${out_dir}/${sample}_diamond.txt" \
+        -p "$threads" \
+        -k 1 \
+        -e "$evalue" \
+        --id "$min_identity" \
+        --query-cover "$min_query_cover" \
+        $( [ -n "$min_score" ] && echo "--min-score $min_score" ) \
+        $( [ -n "$diamond_mode" ] && echo "--mode $diamond_mode" ) \
+        $diamond_extra
 
-    # Run DIAMOND with the mode flag if provided
-    echo $diamond_mode_flag
-    diamond blastp -d "${diamond_db}" -q "${out_dir}/${sample}_proteins.fa" -o "${out_dir}/${sample}_diamond.txt" -k 1 -e 0.0001 -p "${threads}" $diamond_mode_flag
-    log "Completed DIAMOND search for sample ${sample}"
+    if [ $? -ne 0 ]; then
+        log "Error: DIAMOND failed for ${sample}."
+        exit 1    
+    else
+        log "Completed DIAMOND search for sample ${sample}"
+    fi
 
-    # Count the number of genes that match and print the occurrence count
+    # Process results
     awk '{print $2}' "${out_dir}/${sample}_diamond.txt" | sort | uniq -c | while read count gene; do
-        echo -e "${sample}\t${gene}\t${count}" >> "${gene_counts_file}"
+        echo -e "${sample}\t${gene}\t${count}" >> "$gene_counts_file"
     done
-    log "Generated gene counts for sample ${sample}"
+    log "Completed processing for ${sample}."
 done
 
 # Python script to generate the heatmaps
 heatmap_script="$script_dir/vis-scripts/heatmap_plabase.py"
 python "$heatmap_script" "${gene_counts_file}" "${out_dir}" "$script_dir/database/pathways_plabase.txt" "$script_dir/database/summary.txt"
 log "Generated heatmaps"
-
-log "Gene search and heatmap generation completed. Check ${out_dir}/gene_counts.txt for the results."
-
+log "Pipeline completed. Results are saved in ${out_dir}."

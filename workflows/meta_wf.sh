@@ -2,19 +2,8 @@
 
 # Function to display help
 display_help() {
-    echo "Usage: $0 -i <input_directory> -o <output_directory> -t <number_of_threads> [-a <assembly_directory>] [-m <mode>]"
-    echo
-    echo "This script performs gene search with HMM profiles on a collection of metagenomes,"
-    echo "after quality trimming with Trimmomatic, generates a gene count table, and creates gene presence/absence heatmaps."
-    echo "Results are saved to the output directory."
-    echo
-    echo "Arguments:"
-    echo "  -i   Path to the directory containing read files (_1.fq.gz and _2.fq.gz)."
-    echo "  -o   Path to the directory where results will be saved."
-    echo "  -t   Number of threads to be used by the tools."
-    echo "  -a   (Optional) Path to the directory containing assembly files (.fasta). If provided, assembly step is skipped."
-    echo "  -m   (Optional) DIAMOND mode for sequence search."
-    echo
+    echo "PGPg_finder v1.1.0 | by Thierry Pellegrinetty <thierry.pellegrinetti@hotmail.com>"
+    echo "Check https://github.com/tpellegrinetti/PGPg_finder for updates"
 }
 
 # Function for logging
@@ -23,38 +12,58 @@ log() {
     echo "[${timestamp}] $1" | tee -a "$log_file"
 }
 
-# Check if no argument was provided
-if [ $# -eq 0 ]; then
+# Parse long and short options using `getopt`
+ARGS=$(getopt -o i:o:t:a:h --long piden:,qcov:,extra:,bitscore:,evalue:,dmode:,help -n "$0" -- "$@")
+if [ $? -ne 0 ]; then
     display_help
     exit 1
 fi
+eval set -- "$ARGS"
 
-# Parse command-line arguments
+# Default values
+min_identity=30
+min_query_cover=50
+diamond_extra=""
+min_score=""
+evalue="1e-5"
 diamond_mode=""
-while getopts i:o:t:a:m:h opt; do
-  case $opt in
-    i) reads_dir=$OPTARG ;;
-    o) out_dir=$OPTARG ;;
-    t) threads=$OPTARG ;;
-    a) assembly_dir=$OPTARG ;;
-    m) diamond_mode=$OPTARG ;;
-    h) display_help
-       exit 0 ;;
-    *) display_help
-       exit 1 ;;
-  esac
+
+# Parse options
+while true; do
+    case "$1" in
+        -i) reads_dir=$2; shift 2 ;;
+        -o) out_dir=$2; shift 2 ;;
+        -t) threads=$2; shift 2 ;;
+        -a) assembly_dir=$2; shift 2;;
+        --piden) min_identity=$2; shift 2 ;;
+        --qcov) min_query_cover=$2; shift 2 ;;
+        --extra) diamond_extra=$2; shift 2 ;;
+        --bitscore) min_score=$2; shift 2 ;;
+        --evalue) evalue=$2; shift 2 ;;
+        --dmode) diamond_mode=$2; shift 2 ;;
+        -h|--help) display_help; exit 0 ;;
+        --) shift; break ;;
+        *) display_help; exit 1 ;;
+    esac
 done
 
-# Get the directory path where the script is running
-script_dir=$(dirname "$(dirname "$(readlink -f "$0")")")
-
-# Path to the DIAMOND database
-diamond_db="$script_dir/database/metagenome.dmnd"
+# Create log file
+log_file="${out_dir}/log.txt"
+touch "$log_file"
 
 # Verify if required arguments were provided
 if [ -z "$reads_dir" ] || [ -z "$out_dir" ] || [ -z "$threads" ]; then
     log "Missing arguments. See usage below:"
     display_help
+    exit 1
+fi
+
+# Check if DIAMOND database exists
+script_dir=$(dirname "$(dirname "$(readlink -f "$0")")")
+diamond_db="$script_dir/database/genome.dmnd"
+
+if [ ! -f "$diamond_db" ]; then
+    log "Error: DIAMOND database not found at $diamond_db."
     exit 1
 fi
 
@@ -64,9 +73,6 @@ if [ ! -d "$out_dir" ]; then
     log "Created output directory: $out_dir"
 fi
 
-# Create log file
-log_file="${out_dir}/log.txt"
-touch "$log_file"
 
 # Check if diamond_mode is set and add it to the DIAMOND command
 if [ ! -z "$diamond_mode" ]; then
@@ -76,7 +82,7 @@ else
 fi
 
 # Loop to iterate over each pair of read files
-for reads_1 in $reads_dir/*_1.*; do
+for reads_1 in $reads_dir/*_*1.*; do
     sample=$(basename "$reads_1")
     sample=${sample%_1.*}
     log "Processing sample $sample..."
@@ -88,7 +94,7 @@ for reads_1 in $reads_dir/*_1.*; do
     trimmed_se="${out_dir}/${sample}_trimmed_se.fq"
 
     # Quality trimming with Trimmomatic
-    log "Running Trimmomatic for quality trimming"
+    log "Running Trimmomatic for quality trimming in ${sample}"
     if [ -f "$read_file_2" ]; then
         # Paired-end reads
         trimmomatic PE -threads $threads $read_file_1 $read_file_2 $trimmed_file_1 $trimmed_se $trimmed_file_2 $trimmed_se SLIDINGWINDOW:4:20 MINLEN:36
@@ -105,7 +111,7 @@ for reads_1 in $reads_dir/*_1.*; do
     fi
 
     # Quality trimming with Trimmomatic
-    log "Running Trimmomatic for quality trimming"
+    log "Running Trimmomatic for quality trimming in ${sample}"
     if [ -f "$read_file_2" ]; then
         # Paired-end reads
         trimmomatic PE -threads $threads $read_file_1 $read_file_2 $trimmed_file_1 $trimmed_se $trimmed_file_2 $trimmed_se SLIDINGWINDOW:4:20 MINLEN:36
@@ -131,8 +137,26 @@ for reads_1 in $reads_dir/*_1.*; do
    
     # Run DIAMOND
     log "Running DIAMOND search for sample $sample"
-    diamond blastp -d ${diamond_db} -q ${out_dir}/${sample}_proteins.faa -o ${out_dir}/${sample}_diamond.txt -k 1 -e 0.0001 -p ${threads} $diamond_mode_flag
-   
+    
+        diamond blastp -d "$diamond_db" \
+        -q "${out_dir}/${sample}_proteins.faa" \
+        -o "${out_dir}/${sample}_diamond.txt" \
+        -p "$threads" \
+        -k 1 \
+        -e "$evalue" \
+        --id "$min_identity" \
+        --query-cover "$min_query_cover" \
+        $( [ -n "$min_score" ] && echo "--min-score $min_score" ) \
+        $( [ -n "$diamond_mode" ] && echo "--mode $diamond_mode" ) \
+        $diamond_extra
+
+    if [ $? -ne 0 ]; then
+        log "Error: DIAMOND failed for ${sample}."
+        exit 1    
+    else
+        log "Completed DIAMOND search for sample ${sample}"
+    fi
+      
     # Build bowtie2 index
     log "Building bowtie2 index for sample $sample"
     bowtie2-build ${out_dir}/${sample}_nucleotide.ffn ${out_dir}/${sample}_bowtie2_index
@@ -200,4 +224,3 @@ log "Gene search is completed. Check ${gene_counts_file} for the results."
 log "Generating heatmaps"
 python "$script_dir/vis-scripts/heatmap_plabase.py" ${out_dir}/diamond_merged.txt ${out_dir} "$script_dir/database/pathways_plabase.txt" "$script_dir/database/summary.txt"
 log "Generated heatmaps"
-

@@ -17,7 +17,7 @@ display_help() {
     echo
     echo "Optional Arguments:"
     echo "  --piden     Minimum identity for DIAMOND (default: 30)."
-    echo "  --qcov      Minimum query coverage for DIAMOND (default: 50)."
+    echo "  --qcov      Minimum query coverage for DIAMOND (default: 30)."
     echo "  --extra     Additional DIAMOND arguments (optional)."
     echo "  --bitscore  Minimum bit score to report alignments."
     echo "  --evalue    Maximum e-value to report alignments (default: 1e-5)."
@@ -41,7 +41,7 @@ eval set -- "$ARGS"
 
 # Default values
 min_identity=30
-min_query_cover=50
+min_query_cover=30
 diamond_extra=""
 min_score=""
 evalue="1e-5"

@@ -22,7 +22,7 @@ eval set -- "$ARGS"
 
 # Default values
 min_identity=30
-min_query_cover=50
+min_query_cover=30
 diamond_extra=""
 min_score=""
 evalue="1e-5"

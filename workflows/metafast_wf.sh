@@ -16,7 +16,7 @@ display_help() {
     echo
     echo "Optional Arguments:"
     echo "  --piden     Minimum identity for DIAMOND (default: 30)."
-    echo "  --qcov      Minimum query coverage for DIAMOND (default: 50)."
+    echo "  --qcov      Minimum query coverage for DIAMOND (default: 30)."
     echo "  --extra     Additional DIAMOND arguments (optional)."
     echo "  --bitscore  Minimum bit score to report alignments."
     echo "  --evalue    Maximum e-value to report alignments (default: 1e-5)."
@@ -40,7 +40,7 @@ eval set -- "$ARGS"
 
 # Default values
 min_identity=30
-min_query_cover=50
+min_query_cover=30
 diamond_extra=""
 min_score=""
 evalue="1e-5"
@@ -113,10 +113,10 @@ for reads_1 in "$genomes_dir"/*_*1.*; do
     log "Running Trimmomatic for quality trimming"
     if [ -f "$read_file_2" ]; then
         # Paired-end reads
-        trimmomatic PE -threads "$threads" "$read_file_1" "$read_file_2" "$trimmed_file_1" "$trimmed_se" "$trimmed_file_2" "$trimmed_se" SLIDINGWINDOW:4:20 MINLEN:50
+        trimmomatic PE -threads "$threads" "$read_file_1" "$read_file_2" "$trimmed_file_1" "$trimmed_se" "$trimmed_file_2" "$trimmed_se" SLIDINGWINDOW:4:20 MINLEN:36
     else
         # Single-end reads
-        trimmomatic SE -threads "$threads" "$read_file_1" "$trimmed_file_1" SLIDINGWINDOW:4:20 MINLEN:50
+        trimmomatic SE -threads "$threads" "$read_file_1" "$trimmed_file_1" SLIDINGWINDOW:4:20 MINLEN:36
     fi
 
     # Run DIAMOND

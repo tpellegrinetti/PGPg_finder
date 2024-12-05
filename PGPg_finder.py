@@ -79,7 +79,7 @@ Performs genome annotation with DIAMOND against the PGPT-db database of PLaBAse.
   -t <threads>:                 Number of threads used for analysis (default: 1)
   --dmode <diamond-mode>:       DIAMOND mode for alignment (e.g., faster, sensitive, very-sensitive)
   --piden <min_identity>:       Minimum identity for alignment (%) (default: 30)
-  --qcov <query_cover>:         Minimum query coverage (%) (default: 50)
+  --qcov <query_cover>:         Minimum query coverage (%) (default: 30)
   --bitscore <bit_score>:       Minimum bit score to report alignments
   --extra <extra>:              Extra arguments for DIAMOND
   --evalue <evalue>:            Maximum e-value to report alignments"
@@ -101,7 +101,7 @@ Performs metagenome annotation using reads with DIAMOND against the PGPT-db data
   -t <threads>:                 Number of threads used for analysis (default: 1)
   --dmode <diamond-mode>:       DIAMOND mode for alignment (e.g., fast, sensitive, very-sensitive)
   --piden <min_identity>:       Minimum identity for alignment (%) (default: 30)
-  --qcov <query_cover>:         Minimum query coverage (%) (default: 50)
+  --qcov <query_cover>:         Minimum query coverage (%) (default: 30)
   --bitscore <bit_score>:       Minimum bit score to report alignments
   --extra <extra>:              Extra arguments for DIAMOND
   --evalue <evalue>:            Maximum e-value to report alignments"
@@ -124,7 +124,7 @@ Performs metagenome annotation using contigs with DIAMOND against the PGPT-db da
   -a <assembly>:               Pre-assembled contigs provided by the user (in FASTA format)
   --dmode <diamond-mode>:        DIAMOND mode for alignment (e.g., fast, sensitive, very-sensitive)
   --piden <min_identity>:       Minimum identity for alignment (%) (default: 30)
-  --qcov <query_cover>:         Minimum query coverage (%) (default: 50)
+  --qcov <query_cover>:         Minimum query coverage (%) (default: 30)
   --bitscore <bit_score>:       Minimum bit score to report alignments
   --extra <extra>:              Extra arguments for DIAMOND
   --evalue <evalue>:            Maximum e-value to report alignments"

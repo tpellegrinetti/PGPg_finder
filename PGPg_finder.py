@@ -43,7 +43,7 @@ PGPg_finder is a tool that offers different workflows for genome and metagenome 
   meta_wf          ->  Accurate metagenome analysis with assembling and alignment with mgPGPT-db database of PLaBAse
 
 {BLUE}Usage:{RESET}
-  PGPg_finder <command> -h for command-specific help
+  PGPg_finder -w (genome_wf or metafast_wf or meta_wf) -h for command-specific help
 
 
 PGPg_finder v1.1.0 | by Thierry Pellegrinetty <thierry.pellegrinetti@hotmail.com>

@@ -31,7 +31,7 @@ awk --version
 echo "All dependencies are installed and working correctly!"
 echo ""
 
-echo "To use PGPB_finder, activate the conda environment using:"
+echo "To use PGPg_finder, activate the conda environment using:"
 echo "    conda activate PGPg_finder"
 echo "To deactivate the environment when you're done, use:"
 echo "    conda deactivate"

@@ -9,7 +9,7 @@ echo ""
 
 # Create a new conda environment
 echo "First, we need to create a separate environment for PGPg_finder..."
-conda create -n PGPg_finder -y
+conda create -n PGPg_finder python==3.8 -y 
 source activate PGPg_finder
 echo "Environment 'PGPg_finder' is now active!"
 echo ""

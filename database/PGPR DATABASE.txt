@@ -1,0 +1,1174 @@
+STRAIN	NCBI REFSEQ ID
+Streptomyces sp. SLBN-31 [RHIZ|PSYMB|PGPB]	GCF_006715395.1
+Cellulomonas sp. Root137 [RHIZ]	GCF_001426725.1
+Cellulomonas sp. Root485 [RHIZ]	GCF_001426705.1
+Cellulomonas sp. Root930 [RHIZ]	GCA_001429255.1
+Oerskovia sp. Root22 [RHIZ]	GCF_001429135.1
+Oerskovia sp. Root918 [RHIZ]	GCF_001428945.1
+Brachybacterium saurashtrense DSM 23186 [RHIZ]	GCF_003994295.1
+Kineosporia rhizophila JCM 9960 [RHIZ]	GCA_001315705.1
+Dermacoccus sp. SAI-028 [RHIZ]	GCF_004346775.1
+Rudaeicoccus suwonensis DSM 19560 [RHIZ]	GCF_007829035.1
+Frankia asymbiotica NRRL B-16386 [RHIZ|PSYMB]	GCF_001983105.1
+Frankia discariae BCU110501 [RHIZ|PSYMB]	GCF_000373365.1
+Frankia irregularis DSM 45899 [RHIZ|PSYMB]	GCF_001536285.1
+Frankia sp. Allo2 [RHIZ|PSYMB]	GCF_000733325.1
+Frankia sp AvcI.1 [RHIZ|PSYMB]	GCF_001420875.1
+Frankia sp. B2 [RHIZ|PSYMB]	GCF_004405155.1
+Frankia sp. BMG5.11 [RHIZ|PSYMB]	GCF_004337455.1
+Frankia sp. BMG5.30 [RHIZ|PSYMB]	GCF_001983005.1
+Frankia sp. BMG5.36 [RHIZ|PSYMB]	GCF_001854805.1
+Frankia sp. CcI156 [RHIZ|PSYMB]	GCF_001983015.1
+Frankia sp. CcI49 [RHIZ|PSYMB]	GCF_001983215.1
+Frankia sp. CgIM4 [RHIZ|PSYMB]	GCF_001756285.1
+Frankia sp. CgIS1 [RHIZ|PSYMB]	GCF_001854725.1
+Frankia sp. DC12 [RHIZ|PSYMB]	GCF_000966285.1
+Frankia sp. KB5 [RHIZ|PSYMB]	GCF_002099325.1
+Frankia symbiont of Datisca glomerata Dg1 [RHIZ|PSYMB]	GCF_000177615.2
+Glycomyces paridis CPCC 204357 [RHIZ]	GCF_004912155.1
+Gordonia polyisoprenivorans herm_1 [RHIZ]	GCF_002257745.1
+Gordonia rhizosphera NBRC 16068 [RHIZ]	GCF_000298195.1
+Humibacillus xanthopallidus SLBN-155 [RHIZ|PSYMB|PGPB]	GCF_006716675.1
+Cellulomonas sp. SLBN-39 [RHIZ|PSYMB|PGPB]	GCF_006715865.1
+Phycicoccus sp. Root101 [RHIZ]	GCF_001426245.1
+Phycicoccus sp. Root563 [RHIZ]	GCF_001427915.1
+Terrabacter sp. SLBN-196 [RHIZ|PSYMB|PGPB]	GCF_006715875.1
+Terrabacter sp. Root181 [RHIZ]	GCF_001428505.1
+Terrabacter sp. Root85 [RHIZ]	GCF_001429185.1
+Phytoactinopolyspora endophytica EGI 60009 [RHIZ]	GCF_004138495.1
+Angustibacter sp. Root456 [RHIZ]	GCF_001426435.1
+Agromyces sp. SLBN-50 [RHIZ|PSYMB|PGPB]	GCF_006715355.1
+Agromyces sp. Root1464 [RHIZ]	GCF_001427265.1
+Agromyces sp. Root81 [RHIZ]	GCF_001429165.1
+Conyzicola lurida DSM 105784 [RHIZ]	GCF_014204935.1
+Curtobacterium pusillum AA3 [RHIZ]	GCF_002025645.1
+Herbiconiux sp. YR403 [RHIZ]	GCF_000799285.1
+Homoserinibacter sp. GY 40078 [RHIZ]	GCF_008017545.1
+Leifsonia sp. Root112D2 [RHIZ]	GCF_001424905.1
+Leifsonia sp. Root1293 [RHIZ]	GCF_001425325.1
+Leifsonia sp. Root227 [RHIZ]	GCF_001428745.1
+Leifsonia sp. Root4 [RHIZ]	GCF_001425085.1
+Leifsonia sp. Root60 [RHIZ]	GCF_001427485.1
+Leifsonia xyli xyli gdw1 [RHIZ]	GCF_001708285.1
+Lysinimonas sp. SLBN-160 [RHIZ]	GCF_013408285.1
+Microbacterium endophyticum DSM 27099 [RHIZ]	GCF_014191465.1
+Microbacterium azadirachtae CL89 [RHIZ]	
+Microbacterium sp. CF335 [RHIZ]	GCF_000799385.1
+Microbacterium sp. SLBN-154 [RHIZ|PSYMB|PGPB]	GCF_006715565.1
+Microbacterium sp. SLBN-158 [RHIZ|PSYMB|PGPB]	GCF_006715675.1
+Microbacterium sp. SLBN-146 [RHIZ|PSYMB|PGPB]	GCF_006715145.1
+Microbacterium sp. Root1433D1 [RHIZ]	GCF_001426835.1
+Microbacterium sp. Root166 [RHIZ]	GCF_001427145.1
+Microbacterium sp. Root180 [RHIZ]	GCF_001428485.1
+Microbacterium sp. Root280D1 [RHIZ]	GCF_001428975.1
+Microbacterium sp. Root322 [RHIZ]	GCF_001425645.1
+Microbacterium sp. Root53 [RHIZ]	GCF_001426925.1
+Microbacterium sp. Root553 [RHIZ]	GCF_001426995.1
+Microbacterium sp. Root61 [RHIZ]	GCF_001427525.1
+Microbacterium sp. SAI-030 [RHIZ|PSYMB|PGPB]	GCF_009858275.1
+Microbacterium sp. SMR1 [RHIZ]	GCF_003289625.1
+Pseudoclavibacter endophyticus EGI 60007 [RHIZ]	GCF_008831085.1
+Microbacterium sp. CL22 [RHIZ]	not_announced
+Microbacterium sp. WCS2014-259 [RHIZ]	not_announced
+Yonghaparkia sp. Root332 [RHIZ]	GCF_001425665.1
+Arthrobacter sp. SLBN-179 [RHIZ|PSYMB|PGPB]	GCF_006715715.1
+Arthrobacter sp. SLBN-100 [RHIZ]	GCF_006715305.1
+Arthrobacter sp. SLBN-83 [RHIZ|PSYMB|PGPB]	GCF_006715285.1
+Arthrobacter sp. SLBN-112 [RHIZ|PSYMB|PGPB]	GCF_006715225.1
+Arthrobacter sp. SLBN-122 [RHIZ|PSYMB|PGPB]	GCF_006715165.1
+Phycicoccus sp. SLBN-51 [RHIZ|PSYMB|PGPB]	GCF_006715255.1
+Glutamicibacter halophytocola KLBMP5180 [RHIZ]	GCF_001302565.1
+Kocuria sp. OV113 [RHIZ]	GCF_003664065.1
+Micrococcus endophyticus DSM 17945 [RHIZ]	GCF_014205115.1
+Micrococcus yunnanensis DSM 21948 [RHIZ]	GCF_014138885.1
+Arthrobacter sp. CL63Tsu [RHIZ]	not_announced
+Isoptericola variabilis JZ7 [RHIZ|PSYMB|PGPB]	GCF_001750215.1
+Cellulosimicrobium cellulans JZ5 [RHIZ|PSYMB|PGPB]	GCF_001722485.1
+Micromonospora avicenniae DSM 45758 [RHIZ]	GCF_900156065.1
+Micromonospora chokoriensis NRRL B-24750 [RHIZ]	GCF_000718555.1
+Micromonospora coriariae DSM 44875 [RHIZ|PSYMB]	GCF_900091455.1
+Micromonospora endophytica DSM 45430 [RHIZ]	GCF_003236305.1
+Micromonospora endophytica JCM 18317 [RHIZ]	GCF_003581605.1
+Micromonospora globbae WPS1-2 [RHIZ]	GCF_003610785.1
+Micromonospora musae MS1-9 [RHIZ]	GCF_003626635.1
+Micromonospora musae NGC1-4 [RHIZ]	GCF_003626545.1
+Micromonospora pisi DSM 45175 [RHIZ|PSYMB]	GCF_003633685.1
+Jishengella sp. AZ1-13 [RHIZ]	GCF_003583405.1
+Micromonospora saelicesensis DSM 44871 [RHIZ|PSYMB]	GCF_900091575.1
+Micromonospora sp. L5 [RHIZ]	GCF_000177655.2
+Micromonospora sp. MH33 [RHIZ]	GCF_003013775.1
+Micromonospora sp. RP3T [RHIZ]	GCF_003027925.1
+Micromonospora taraxaci DSM 45885 [RHIZ]	GCF_007830095.1
+Micromonospora violae DSM 45888 [RHIZ]	GCF_004217135.1
+Micromonospora zingiberis PLAI 1-1 [RHIZ]	GCF_004331455.1
+Phytomonospora endophytica DSM 45386 [RHIZ]	GCF_014202425.1
+Arthrobacter sp. SLBN-53 [RHIZ|PSYMB|PGPB]	GCF_006715295.1
+Mycobacterium sp. OK887 [RHIZ]	GCF_004368625.1
+Mycobacterium sp. OK889 [RHIZ]	GCF_004363795.1
+Mycobacterium sp. Root135 [RHIZ]	GCF_001426545.1
+Mycobacterium sp. Root265 [RHIZ]	GCF_001428895.1
+Mycobacterium sp. YR708 [RHIZ]	GCF_004345925.1
+Mycobacterium sp. YR782 [RHIZ]	GCF_003053865.1
+Mycolicibacterium obuense SEMIA 442 [RHIZ|PSYMB]	GCF_014194265.1
+Nocardia sp. Root136 [RHIZ]	GCF_001427185.1
+Mycobacterium sp. 501AMF [RHIZ]	not_announced
+Rhodococcus erythropolis 339MFSha3.1 [RHIZ]	not_announced
+Rhodococcus maanshanensis 259MFSha1.1 [RHIZ]	not_announced
+Rhodococcus sp. OK269 [RHIZ]	GCF_003386655.1
+Rhodococcus sp. OK519 [RHIZ]	GCF_003051005.1
+Rhodococcus sp. OK551 [RHIZ]	GCF_003387295.1
+Rhodococcus sp. OK611 [RHIZ]	GCF_003050885.1
+Rhodococcus sp. PBTS1 [RHIZ|PPATH]	GCF_001620025.1
+Rhodococcus sp. PBTS2 [RHIZ|PPATH]	GCF_001620005.1
+Aeromicrobium sp. Root236 [RHIZ]	GCF_001428805.1
+Aeromicrobium sp. Root344 [RHIZ]	GCF_001425755.1
+Aeromicrobium sp. Root472D3 [RHIZ]	GCF_001426485.1
+Aeromicrobium sp. Root495 [RHIZ]	GCF_001426755.1
+Nocardioides perillae DSM 24552 [RHIZ]	GCF_013409425.1
+Nocardioides sp. CF167 [RHIZ]	GCF_003054165.1
+Nocardioides sp. CF479 [RHIZ]	GCF_003633575.1
+Nocardioides sp. SLBN-172 [RHIZ|PSYMB|PGPB]	GCF_006715515.1
+Pseudomonas sp. SLBN-26 [RHIZ|PSYMB|PGPB]	GCF_006715895.1
+Nocardioides sp. Root122 [RHIZ]	GCF_001425025.1
+Nocardioides sp. Root1257 [RHIZ]	GCF_001425175.1
+Nocardioides sp. Root140 [RHIZ]	GCF_001426745.1
+Nocardioides sp. Root151 [RHIZ]	GCF_001427925.1
+Nocardioides sp. Root190 [RHIZ]	GCF_001428565.1
+Nocardioides sp. Root224 [RHIZ]	GCF_001428725.1
+Nocardioides sp. Root240 [RHIZ]	GCF_001428825.1
+Nocardioides sp. Root614 [RHIZ]	GCF_001427545.1
+Nocardioides luteus SAI-037 [RHIZ]	GCF_015752315.1
+Nocardioides sp. Root682 [RHIZ]	GCF_001427795.1
+Nocardioides sp. Root79 [RHIZ]	GCF_001428765.1
+Nocardioides sp. SLBN-169 [RHIZ|PSYMB|PGPB]	GCF_006715835.1
+Nocardioides sp. SAI-095 [RHIZ|PSYMB|PGPB]	GCF_009858265.1
+Nocardioides ferulae EGI 63112 [RHIZ]	GCF_003660455.1
+Actinorugispora endophytica DSM 46770 [RHIZ]	GCF_004363075.1
+Promicromonospora sp. AC04 [RHIZ]	GCF_003058225.1
+Promicromonospora sp. SLBN-65 [RHIZ|PSYMB|PGPB]	GCF_006715385.1
+Promicromonospora sp. CF082 [RHIZ]	GCF_004341335.1
+Promicromonospora sp. YR516 [RHIZ]	GCF_003664225.1
+Promicromonospora sukumoe SAI-064 [RHIZ|PSYMB|PGPB]	GCF_003096495.1
+Promicromonospora thailandica SAI-039 [RHIZ|PSYMB|PGPB]	GCF_003550025.1
+Actinokineospora sp. TRM65233 [RHIZ]	GCF_009745975.1
+Actinophytocola oryzae DSM 45499 [RHIZ]	GCF_004364325.1
+Amycolatopsis anabasis EGI 650086 [RHIZ]	GCF_009765355.1
+Amycolatopsis suaedae 8-3EHSu [RHIZ]	GCF_004214935.1
+Prauserella sp. Am3 [RHIZ|PSYMB]	GCA_000814645.1
+Pseudonocardia acaciae DSM 45401 [RHIZ]	GCF_000620785.1
+Pseudonocardia alni DSM 44104 [RHIZ|PSYMB]	GCA_002813375.1
+Pseudonocardia eucalypti DSM 45351 [RHIZ]	GCF_014208095.1
+Pseudonocardia kunmingensis DSM 45301 [RHIZ]	GCF_006716445.1
+Tamaricihabitans halophyticus DSM 45765 [RHIZ]	GCF_004340875.1
+Allostreptomyces psammosilenae DSM 42178 [RHIZ]	GCF_013407765.1
+Paenarthrobacter nicotinovorans 254MFSha2.1 [RHIZ]	not_announced
+Kitasatospora arboriphila NRRL B-24581 [RHIZ]	GCF_000717275.1
+Kitasatospora sp. Root107 [RHIZ]	GCF_001424875.1
+Kitasatospora sp. Root187 [RHIZ]	GCF_001429805.1
+Streptomyces atratus OK008 [RHIZ]	GCF_000745675.1
+Streptomyces atratus OK807 [RHIZ]	GCF_900119365.1
+Streptomyces griseorubiginosus SAI-142 [RHIZ|PSYMB|PGPB]	GCF_003752655.1
+Streptomyces griseorubiginosus 3E-1 [RHIZ]	GCF_003595235.1
+Streptomyces mirabilis OV308 [RHIZ]	GCF_000745715.1
+Streptomyces mirabilis YR139 [RHIZ]	GCF_000746395.1
+Streptomyces mirabilis OK461 [RHIZ]	GCF_900112965.1
+Streptomyces ossamyceticus SAI-001 [RHIZ|PSYMB|PGPB]	GCF_003752045.1
+Streptomyces scabiei SAI-025 [RHIZ]	GCF_014203845.1
+Streptomyces sp. SLBN-109 [RHIZ|PSYMB|PGPB]	GCF_006715605.1
+Streptomyces sp. SLBN-192 [RHIZ|PSYMB|PGPB]	GCF_006715825.1
+Streptomyces sp. AcE210 [RHIZ|PSYMB]	GCF_003403055.1
+Streptomyces sp. SLBN-118 [RHIZ|PSYMB|PGPB]	GCF_006715635.1
+Streptomyces sp. AZ1-7 [RHIZ]	GCF_003626585.1
+Streptomyces sp. DS1-2 [RHIZ]	GCF_003626575.1
+Streptomyces sp. SAI-083 [RHIZ|PSYMB|PGPB]	GCF_003751175.1
+Achromobacter sp. SLBN-14 [RHIZ]	GCF_006715415.1
+Streptomyces sp. SLBN-134 [RHIZ|PSYMB|PGPB]	GCF_006715925.1
+Streptomyces sp. SLBN-115 [RHIZ|PSYMB|PGPB]	GCF_006715185.1
+Streptomyces sp. Root1295 [RHIZ]	GCF_001426325.1
+Streptomyces sp. Root1304 [RHIZ]	GCF_001426405.1
+Streptomyces sp. Root1310 [RHIZ]	GCF_001426425.1
+Streptomyces sp. Root1319 [RHIZ]	GCF_001426615.1
+Streptomyces sp. Root264 [RHIZ]	GCF_001428885.1
+Streptomyces sp. Root369 [RHIZ]	GCF_001425805.1
+Streptomyces sp. Root431 [RHIZ]	GCF_001426585.1
+Streptomyces sp. Root55 [RHIZ]	GCF_001427245.1
+Streptomyces sp. Root63 [RHIZ]	GCF_001427565.1
+Streptomyces sp. Root66D1 [RHIZ]	GCF_001427745.1
+Streptomyces sp. RP5T [RHIZ]	GCF_003933965.1
+Streptomyces sp. SAI-097 [RHIZ|PSYMB|PGPB]	GCF_003814525.1
+Microbispora catharanthi CR1-09 [RHIZ]	GCF_006334915.2
+Microbispora sp. NRRL B-24597 [RHIZ]	GCA_000718545.1
+Microbispora tritici MT50 [RHIZ]	GCF_008085995.1
+Microbispora triticiradicis NEAU-HRDPA2-9 [RHIZ]	GCA_003260025.2
+Nonomuraea phyllanthi PA1-10 [RHIZ]	GCF_006334985.2
+Nonomuraea sp. PA05 [RHIZ]	GCF_008086045.1
+Chitinophaga pinensis 1204 [RHIZ]	GCF_007994035.1
+Chitinophaga polysaccharea 1209 [RHIZ]	GCF_007829335.1
+Chitinophaga sancti 1232 [RHIZ]	GCF_014190745.1
+Chitinophaga sp. 1310 [RHIZ]	GCF_012516355.1
+Chitinophaga agri H33E-04 [RHIZ]	GCF_010093065.1
+Filimonas endophytica 3197 [RHIZ]	GCF_007994055.1
+Niastella sp. CF465 [RHIZ]	GCF_004341975.1
+Algoriphagus kandeliae XY-J91 [RHIZ]	GCF_004571135.1
+Hymenobacter sp. YR204 [RHIZ]	GCF_003634355.1
+Croceivirga radicis HSG9 [RHIZ]	GCF_002072105.2
+Flavobacterium endophyticum DSM 29537 [RHIZ]	GCF_003634455.1
+Flavobacterium gossypii DSM 100397 [RHIZ]	GCF_014138495.1
+Flavobacterium johnsoniae GSE09 [RHIZ]	GCF_001705175.1
+Flavobacterium sp. GV028 [RHIZ]	GCF_003386855.1
+Flavobacterium sp. GV029 [RHIZ]	GCF_003688345.1
+Flavobacterium sp. GV030 [RHIZ]	GCF_003208535.1
+Flavobacterium sp. GV063 [RHIZ]	GCF_004341805.1
+Flavobacterium sp. GV069 [RHIZ]	GCF_003217415.1
+Flavobacterium sp. Root186 [RHIZ]	GCF_001428525.1
+Flavobacterium sp. Root420 [RHIZ]	GCF_001427905.1
+Flavobacterium sp. Root901 [RHIZ]	GCF_001429765.1
+Flavobacterium sp. Root935 [RHIZ]	GCF_001429295.1
+Flavobacterium sp. S87F.05.LMB.W.Kidney.N [RHIZ]	GCF_004366435.1
+Chryseobacterium cucumeris GSE06 [RHIZ]	GCF_001593385.1
+Chryseobacterium indologenes AA5 [RHIZ]	GCF_002025665.1
+Chryseobacterium kwangjuense KJ1R5 [RHIZ]	GCF_001563495.1
+Chryseobacterium soldanellicola DSM 17072 [RHIZ]	GCF_900100115.1
+Chryseobacterium sp. CF284 [RHIZ]	GCF_000746315.1
+Chryseobacterium sp. CF299 [RHIZ]	GCF_000744495.1
+Chryseobacterium sp. CF356 [RHIZ]	GCF_000799515.1
+Chryseobacterium sp. CF365 [RHIZ]	GCF_000745535.1
+Chryseobacterium sp. KLBC 52 [RHIZ|PSYMB]	GCF_003347605.1
+Chryseobacterium sp. OV259 [RHIZ]	GCF_000745795.1
+Chryseobacterium sp. OV279 [RHIZ]	GCF_900128945.1
+Chryseobacterium sp. OV705 [RHIZ]	GCF_000799645.1
+Chryseobacterium sp. OV715 [RHIZ]	GCF_000800075.1
+Chryseobacterium sp. YR005 [RHIZ]	GCF_000799255.1
+Chryseobacterium sp. YR203 [RHIZ]	GCF_900129105.1
+Chryseobacterium sp. YR221 [RHIZ]	GCF_900176315.1
+Chryseobacterium sp. YR459 [RHIZ]	GCF_000799235.1
+Chryseobacterium sp. YR460 [RHIZ]	GCF_000799195.1
+Chryseobacterium sp. YR477 [RHIZ]	GCF_000799375.1
+Chryseobacterium sp. YR480 [RHIZ]	GCF_000799325.1
+Chryseobacterium sp. YR485 [RHIZ]	GCF_000799335.1
+Chryseobacterium sp. YR561 [RHIZ]	GCF_000799455.1
+Chryseobacterium taeanense DSM 17071 [RHIZ]	GCF_900099685.1
+Elizabethkingia sp. YR191 [RHIZ]	GCF_003053575.1
+Elizabethkingia sp. YR214 [RHIZ]	GCF_003058195.1
+Chryseobacterium sp. 312AMFChir4.1 [RHIZ]	not_announced
+Pedobacter sp. CF074 [RHIZ]	GCF_004342125.1
+Pedobacter sp. CF523 [RHIZ]	GCF_003688475.1
+Pedobacter sp. OK291 [RHIZ]	GCF_003054145.1
+Pedobacter sp. OK628 [RHIZ]	GCF_004340745.1
+Pedobacter sp. OK701 [RHIZ]	GCF_004364225.1
+Pedobacter sp. YR016 [RHIZ]	GCF_003054115.1
+Pedobacter sp. YR510 [RHIZ]	GCF_003387385.1
+Pedobacter terrae 518 [RHIZ]	GCF_007994015.1
+Pedobacter zeae DSM 100774 [RHIZ]	GCF_014196715.1
+Sphingobacterium yanglingense DSM 28353 [RHIZ|PSYMB]	GCF_004363245.1
+Nostoc sp. 106C [RHIZ]	GCF_002154725.1
+Nostoc sp. PA-18-2419 JC1668 [RHIZ]	GCF_005869855.1
+Nostoc sp. RF31YmG [RHIZ]	GCF_002155185.1
+Nostoc sp. T09 [RHIZ]	GCF_002154695.1
+Deinococcus ficus CC-FR2-10 [RHIZ]	GCF_003444775.1
+Brevibacterium frigoritolerans 3612 [RHIZ]	GCF_007828935.1
+Nostoc punctiforme PCC 73102 [RHIZ]	not_announced
+Bacillus amyloliquefaciens Bs006 [RHIZ|PSYMB|PGPB]	GCF_001278635.1
+Bacillus filamentosus HL2HP6 [RHIZ]	GCA_002946475.1
+Bacillus pseudomycoides AFS022719 [RHIZ]	GCF_002557385.1
+Bacillus pseudomycoides AFS000230 [RHIZ]	GCF_002556235.1
+Bacillus mycoides GOE1 [RHIZ]	not_announced
+Bacillus mycoides GOE3 [RHIZ]	not_announced
+Bacillus mycoides GOE2 [RHIZ]	not_announced
+Bacillus mycoides GOE4 [RHIZ]	not_announced
+Bacillus mycoides GOE6 [RHIZ]	not_announced
+Bacillus mycoides GOE7 [RHIZ]	not_announced
+Bacillus mycoides GOE8 [RHIZ]	not_announced
+Bacillus mycoides GOE9 [RHIZ]	not_announced
+Bacillus mycoides GOE10 [RHIZ]	not_announced
+Bacillus mycoides GOE11 [RHIZ]	not_announced
+Bacillus mycoides GOE12 [RHIZ]	not_announced
+Bacillus mycoides GOE13 [RHIZ]	not_announced
+Bacillus mycoides GOE5 [RHIZ]	not_announced
+Bacillus pseudomycoides AFS040159 [RHIZ]	GCF_002582165.1
+Bacillus pseudomycoides AFS054612 [RHIZ]	GCF_002579385.1
+Bacillus pseudomycoides AFS035137 [RHIZ]	GCF_002589505.1
+Bacillus pseudomycoides AFS081374 [RHIZ]	GCF_002568765.1
+Bacillus safensis VK [RHIZ]	GCF_000444215.1
+Bacillus sp. AFS017274 [RHIZ]	GCF_002561875.1
+Bacillus sp. AFS031507 [RHIZ]	GCF_002584635.1
+Bacillus sp. AFS040349 [RHIZ]	GCF_002577655.1
+Bacillus sp. AFS041924 [RHIZ]	GCF_002577195.1
+Bacillus sp. AFS055030 [RHIZ]	GCF_002574545.1
+Bacillus sp. AFS077874 [RHIZ]	GCF_002566505.1
+Microbacterium sp. SLBN-1 [RHIZ|PSYMB|PGPB]	GCF_007828185.1
+Bacillus sp. SLBN-174 [RHIZ|PSYMB|PGPB]	GCF_006715705.1
+Bacillus sp. OK077 [RHIZ]	GCF_004346405.1
+Bacillus sp. OK085 [RHIZ]	GCF_004341175.1
+Bacillus sp. OV186 [RHIZ]	GCF_003053645.1
+Bacillus sp. OV752 [RHIZ]	GCF_003053785.1
+Bacillus sp. Root11 [RHIZ]	GCF_001429465.1
+Bacillus sp. Root131 [RHIZ]	GCF_001429475.1
+Bacillus sp. Root147 [RHIZ]	GCF_001429365.1
+Bacillus sp. Root239 [RHIZ]	GCF_001429385.1
+Bacillus sp. Root920 [RHIZ]	GCF_001429445.1
+Bacillus sp. UNCCL81 [RHIZ]	GCF_900112535.1
+Bacillus sp. WR11 [RHIZ|PSYMB|PGPB]	GCF_004103875.1
+Bacillus sp. YR335 [RHIZ]	GCF_003259415.1
+Bacillus thuringiensis KNU-07 [RHIZ]	GCF_001692675.1
+Bacillus thuringiensis 1230 [RHIZ]	GCF_007829295.1
+Bacillus thuringiensis GOE1 [RHIZ]	not_announced
+Bacillus thuringiensis GOE2 [RHIZ]	not_announced
+Bacillus thuringiensis GOE3 [RHIZ]	not_announced
+Bacillus thuringiensis GOE4 [RHIZ]	not_announced
+Bacillus thuringiensis GOE06 [RHIZ]	not_announced
+Bacillus thuringiensis GOE5 [RHIZ]	not_announced
+Bacillus toyonensis AFS061925 [RHIZ]	GCF_002572415.1
+Bacillus toyonensis AFS034699 [RHIZ]	GCF_002588695.1
+Bacillus toyonensis AFS036256 [RHIZ]	GCF_002585395.1
+Bacillus toyonensis AFS023984 [RHIZ]	GCF_002557225.1
+Bacillus toyonensis AFS093377 [RHIZ]	GCF_002550725.1
+Bacillus toyonensis AFS089607 [RHIZ]	GCF_002553375.1
+Bacillus toyonensis AFS091268 [RHIZ]	GCF_002553325.1
+Bacillus toyonensis AFS036089 [RHIZ]	GCF_002582715.1
+Bacillus toyonensis AFS081381 [RHIZ]	GCF_002568745.1
+Bacillus toyonensis AFS095385 [RHIZ]	GCF_002550525.1
+Bacillus toyonensis AFS097065 [RHIZ]	GCF_002552055.1
+Bacillus toyonensis AFS027027 [RHIZ]	GCF_002556955.1
+Bacillus toyonensis AFS072190 [RHIZ]	GCF_002570155.1
+Bacillus toyonensis AFS072832 [RHIZ]	GCF_002570105.1
+Bacillus toyonensis AFS044634 [RHIZ]	GCF_002580975.1
+Bacillus toyonensis AFS065389 [RHIZ]	GCF_002572035.1
+Bacillus toyonensis AFS006079 [RHIZ]	GCF_002555905.1
+Bacillus toyonensis AFS091569 [RHIZ]	GCF_002552675.1
+Bacillus toyonensis AFS093065 [RHIZ]	GCF_002552545.1
+Bacillus toyonensis AFS098702 [RHIZ]	GCF_002552975.1
+Bacillus toyonensis AFS083176 [RHIZ]	GCF_002569445.1
+Bacillus toyonensis AFS053584 [RHIZ]	GCF_002579895.1
+Bacillus toyonensis AFS096476 [RHIZ]	GCF_002552125.1
+Bacillus toyonensis AFS088186 [RHIZ]	GCF_002569325.1
+Bacillus toyonensis AFS075404 [RHIZ]	GCF_002569835.1
+Bacillus toyonensis AFS089650 [RHIZ]	GCF_002551565.1
+Lysinibacillus endophyticus DSM 100506 [RHIZ]	GCF_003628435.1
+Lysinibacillus fusiformis 3193 [RHIZ]	GCF_006789605.1
+Leuconostoc mesenteroides YL48 [RHIZ]	GCF_002886025.1
+Bacillus sp. 212MF [RHIZ]	not_announced
+Bacillus sp. 215MF [RHIZ]	not_announced
+Paenibacillus chondroitinus OK414 [RHIZ]	GCF_000799595.1
+Paenibacillus durus P3L-5 [RHIZ]	GCF_000520635.1
+Paenibacillus durus ATCC 35681 [RHIZ]	GCF_000993825.1
+Paenibacillus illinoisensis 582 [RHIZ]	GCF_014190735.1
+Paenibacillus kribbensis 6hRe76 [RHIZ]	GCF_001705305.1
+Paenibacillus naphthalenovorans PR-N1 [RHIZ]	GCF_900099895.1
+Paenibacillus odorifer DSM 15391 [RHIZ]	GCF_000758725.1
+Paenibacillus polymyxa HY96-2 [RHIZ]	GCF_002893885.1
+Paenibacillus sp. 597 [RHIZ]	GCF_007829615.1
+Paenibacillus sp. Root444D2 [RHIZ]	GCF_001426375.1
+Paenibacillus sp. Root52 [RHIZ]	GCF_001426865.1
+Paenibacillus sp. UNCCL117 [RHIZ]	GCF_900119055.1
+Paenibacillus sp. 445MF [RHIZ]	not_announced
+Paenisporosarcina sp. OV554 [RHIZ]	GCF_003058165.1
+Paenibacillus sp. CL06Col [RHIZ]	not_announced
+Paenibacillus sp. CL91 [RHIZ]	not_announced
+Paenibacillus sp. CL97 [RHIZ]	not_announced
+Baia soyae DSM 46831 [RHIZ]	GCF_004341445.1
+Exiguobacterium sp. RIT594 [RHIZ]	GCF_003339585.1
+Aurantimonas endophytica DSM 103570 [RHIZ]	GCF_014196845.1
+Aureimonas sp. YIM DR1026 [RHIZ]	GCF_009176975.1
+Jiella endophytica CBS5Q-3 [RHIZ]	GCF_004519335.1
+Martelella sp. BGMRC2036 [RHIZ]	GCF_006516955.1
+Afipia sp. Root123D2 [RHIZ]	GCF_001425835.1
+Bosea lathyri DSM 26656 [RHIZ|PSYMB]	GCF_900108245.1
+Bosea robiniae DSM 26672 [RHIZ|PSYMB]	GCF_900102525.1
+Bosea sp. RCAM04680 [RHIZ|PSYMB]	GCF_003351345.1
+Bosea sp. RCAM04685 [RHIZ|PSYMB]	GCF_003351325.1
+Bosea sp. Root381 [RHIZ]	GCF_001429395.1
+Bosea sp. Root483D1 [RHIZ]	GCF_001429505.1
+Bosea sp. Root670 [RHIZ]	GCF_001429415.1
+Bosea sp. Tri-39 [RHIZ|PSYMB]	GCF_004123815.1
+Bosea sp. Tri-44 [RHIZ|PSYMB]	GCF_004123845.1
+Bosea sp. Tri-49 [RHIZ|PSYMB]	GCF_003952665.1
+Bosea sp. Tri-54 [RHIZ|PSYMB]	GCF_004123895.1
+Bosea vestrisii 3192 [RHIZ]	GCF_006717005.1
+Bradyrhizobium amphicarpaeae 39S1MB [RHIZ|PSYMB]	GCF_002266435.2
+Bradyrhizobium algeriense RST91 [RHIZ|PSYMB]	GCF_003062295.1
+Bradyrhizobium betae Opo-243 [RHIZ|PSYMB]	GCF_004123905.1
+Bradyrhizobium canariense UBMA181 [RHIZ|PSYMB]	GCF_002108965.1
+Bradyrhizobium canariense UBMA122 [RHIZ|PSYMB]	GCF_002108825.1
+Bradyrhizobium centrolobii BR 10245 [RHIZ|PSYMB]	GCF_001641635.1
+Bradyrhizobium canariense UBMA192 [RHIZ|PSYMB]	GCF_002108865.1
+Bradyrhizobium canariense UBMA195 [RHIZ|PSYMB]	GCF_002108775.1
+Bradyrhizobium canariense UBMA171 [RHIZ|PSYMB]	GCF_002108995.1
+Bradyrhizobium canariense UBMA052 [RHIZ|PSYMB]	GCF_002108745.1
+Bradyrhizobium canariense UBMA061 [RHIZ|PSYMB]	GCF_002108755.1
+Bradyrhizobium cosmicum 58S1 [RHIZ|PSYMB]	GCF_007290395.1
+Bradyrhizobium diazoefficiens Y21 [RHIZ|PSYMB]	GCF_002531995.1
+Bradyrhizobium centrosematis SEMIA 424 [RHIZ|PSYMB]	not_announced
+Bradyrhizobium centrosematis SEMIA 431 [RHIZ|PSYMB]	not_announced
+Bradyrhizobium forestalis INPA54B [RHIZ|PSYMB]	GCF_002795245.1
+Bradyrhizobium icense LMTR 13 [RHIZ|PSYMB]	GCF_001693385.1
+Bradyrhizobium japonicum UBMA197 [RHIZ|PSYMB]	GCF_002108935.1
+Bradyrhizobium liaoningense CCNWSX0360 -JQ [RHIZ|PSYMB]	GCF_001595995.1
+Bradyrhizobium macuxiense BR 10303 [RHIZ|PSYMB]	GCF_001542415.1
+Bradyrhizobium neotropicale BR 10247 [RHIZ|PSYMB]	GCF_001641695.1
+Bradyrhizobium ottawaense L2 [RHIZ|PSYMB]	GCF_002532025.1
+Bradyrhizobium ottawaense OO99 [RHIZ|PSYMB]	GCF_002278135.2
+Bradyrhizobium paxllaeri LMTR 21 [RHIZ|PSYMB]	GCF_001693515.2
+Bradyrhizobium shewense ERR11 [RHIZ|PSYMB]	GCF_900094605.1
+Bradyrhizobium sp. 1(2017) 63S1MB [RHIZ|PSYMB]	GCF_011602485.1
+Bradyrhizobium sp. Ai1a-2 [RHIZ|PSYMB]	GCF_000426245.1
+Bradyrhizobium sp. C9 [RHIZ|PSYMB]	GCF_002532045.1
+Bradyrhizobium sp. CIR1 [RHIZ|PSYMB]	GCF_014198245.1
+Bradyrhizobium sp. CIR18 [RHIZ|PSYMB]	GCF_014198295.1
+Bradyrhizobium sp. CIR3A [RHIZ|PSYMB]	GCF_014197905.1
+Bradyrhizobium sp. CIR48 [RHIZ|PSYMB]	GCF_014198315.1
+Bradyrhizobium sp. ERR14 [RHIZ|PSYMB]	GCF_014198235.1
+Bradyrhizobium sp. IAR9 [RHIZ|PSYMB]	GCF_013408065.1
+Bradyrhizobium sp. Leo170 [RHIZ|PSYMB]	GCF_004296405.1
+Bradyrhizobium sp. LMTR 3 [RHIZ|PSYMB]	GCF_001693485.1
+Bradyrhizobium sp. LVM 105 [RHIZ|PSYMB]	GCF_003957705.1
+Bradyrhizobium sp. NAS80.1 [RHIZ|PSYMB]	GCF_001908205.1
+Bradyrhizobium sp. NAS96.2 [RHIZ|PSYMB]	GCF_001908235.1
+Bradyrhizobium sp. RP6 [RHIZ|PSYMB]	GCF_003837805.1
+Bradyrhizobium sp. S23321 [RHIZ|PSYMB]	GCF_000284275.1
+Bradyrhizobium sp. SBR1B [RHIZ|PSYMB]	GCF_014198205.1
+Bradyrhizobium sp. Th.b2 [RHIZ|PSYMB]	GCF_000426785.1
+Bradyrhizobium sp. WSM1253 [RHIZ|PSYMB]	GCF_000244935.1
+Bradyrhizobium sp. WSM1417 [RHIZ|PSYMB]	GCF_000515415.1
+Bradyrhizobium sp. WSM1743 [RHIZ|PSYMB]	GCF_000473065.1
+Bradyrhizobium sp. WSM4349 [RHIZ|PSYMB]	GCF_000373125.1
+Bradyrhizobium sp. Y36 [RHIZ|PSYMB]	GCF_002531575.1
+Bradyrhizobium symbiodeficiens 85S1MB [RHIZ|PSYMB]	GCF_002266465.2
+Tardiphaga sp. P9-11 [RHIZ]	GCF_008329525.1
+Brucella suis 92/29 [RHIZ]	GCF_000366205.1
+Ochrobactrum pituitosum AA2 [RHIZ]	GCF_002025625.1
+Asticcacaulis sp. CF398 [RHIZ]	GCF_003053985.1
+Brevundimonas sp. Root1279 [RHIZ]	GCF_001425945.1
+Brevundimonas sp. Root1423 [RHIZ]	GCF_001426805.1
+Brevundimonas sp. Root608 [RHIZ]	GCF_001427825.1
+Caulobacter henricii 536 [RHIZ]	GCF_007828975.1
+Caulobacter henricii OK261 [RHIZ]	GCF_000744465.1
+Caulobacter henricii CF287 [RHIZ]	GCF_000745545.1
+Caulobacter henricii YR570 [RHIZ]	GCF_000745595.1
+Caulobacter radicis 736 [RHIZ]	GCF_003094595.1
+Caulobacter sp. 774 [RHIZ]	GCF_003116815.1
+Caulobacter sp. OV484 [RHIZ]	GCF_000799245.1
+Caulobacter sp. Root1455 [RHIZ]	GCF_001426905.1
+Caulobacter sp. Root1472 [RHIZ]	GCF_001426985.1
+Caulobacter sp. Root342 [RHIZ]	GCF_001425725.1
+Caulobacter sp. Root343 [RHIZ]	GCF_001425745.1
+Caulobacter sp. Root487D2Y [RHIZ]	GCF_001427165.1
+Caulobacter sp. Root655 [RHIZ]	GCF_001427665.1
+Caulobacter sp. Root656 [RHIZ]	GCA_001427685.1
+Brevundimonas sp. CL04Tsu [RHIZ]	not_announced
+Caulobacter zeae 410 [RHIZ]	GCF_002858925.1
+Phenylobacterium sp. Root1277 [RHIZ]	GCF_001425915.1
+Phenylobacterium sp. Root1290 [RHIZ]	GCF_001425305.1
+Phenylobacterium sp. Root700 [RHIZ]	GCF_001429025.1
+Phenylobacterium sp. Root77 [RHIZ]	GCF_001428705.1
+Altererythrobacter sp. Root672 [RHIZ]	GCF_001427865.1
+Porphyrobacter sp. EGI 63111 [RHIZ]	GCF_003660445.1
+Novosphingobium barchaimii 1192 [RHIZ]	GCF_007993975.1
+Inquilinus ginsengisoli 584 [RHIZ]	not_announced
+Devosia sp. Root105 [RHIZ]	GCF_001424865.1
+Devosia sp. Root413D1 [RHIZ]	GCF_001425235.1
+Devosia sp. Root436 [RHIZ]	GCF_001426345.1
+Devosia sp. Root635 [RHIZ]	GCF_001427605.1
+Devosia sp. Root685 [RHIZ]	GCF_001427875.1
+Ochrobactrum sp. 370MFChir3.1 [RHIZ]	not_announced
+Methylobacterium sp. GV094 [RHIZ]	GCF_003217615.1
+Methylobacterium sp. GV104 [RHIZ]	GCF_003053915.1
+Methylobacterium sp. UNCCL126 [RHIZ]	not_announced
+Methylobacterium sp. UNCCL136 [RHIZ]	not_announced
+Methylobacterium sp. UNCCL143 [RHIZ]	not_announced
+Methylobacterium sp. UNCCL125 [RHIZ]	GCF_900116795.1
+Methylobacterium sp. WSM2598 [RHIZ|PSYMB]	GCF_000379105.1
+Methylobacterium thiocyanatum DSM 11490 [RHIZ]	GCA_014138645.1
+Microvirga brassicacearum CDVBN77 [RHIZ]	GCF_008757455.1
+Microvirga calopogonii CCBAU 65841 [RHIZ]	GCF_003347665.1
+Microvirga lotononidis WSM3557 [RHIZ|PPATH]	GCF_000262405.1
+Microvirga lupini Lut6 [RHIZ]	GCA_000517005.1
+Microvirga sp. KLBC 81 [RHIZ|PSYMB]	GCF_003075415.1
+Microvirga vignae BR3299 [RHIZ|PSYMB]	GCF_001017175.1
+Pleomorphomonas oryzae DSM 16300 [RHIZ]	GCF_000422965.1
+Pleomorphomonas sp. CF100 [RHIZ]	GCF_004366315.1
+Methylobacterium sp. CL129 [RHIZ]	not_announced
+Rhizomicrobium palustre DSM 19867 [RHIZ]	GCF_011761565.1
+Aminobacter sp. AP02 [RHIZ]	GCF_003148805.1
+Aminobacter sp. Root100 [RHIZ]	GCF_001424795.1
+Mesorhizobium albiziae DSM 21822 [RHIZ|PSYMB]	GCF_900114255.1
+Mesorhizobium alhagi CCNWXJ12-2 [RHIZ|PSYMB]	GCF_000236565.1
+Mesorhizobium australicum WSM2073 [RHIZ|PSYMB]	GCF_000230995.2
+Mesorhizobium ciceri ca181 [RHIZ]	GCF_000474725.1
+Mesorhizobium ciceri biserrulae WSM1284 [RHIZ|PSYMB]	GCF_001618845.1
+Mesorhizobium loti R7A [RHIZ|PSYMB]	GCF_000504265.1
+Mesorhizobium kowhaii Ach-343 [RHIZ|PSYMB]	GCF_003253745.1
+Mesorhizobium loti R88b [RHIZ|PSYMB]	GCF_000517145.1
+Mesorhizobium metallidurans STM 2683 [RHIZ|PSYMB]	GCF_000350085.1
+Mesorhizobium loti NZP2037 [RHIZ|PSYMB]	GCF_000384055.1
+Mesorhizobium loti DSM 2626 [RHIZ|PSYMB]	GCF_003148495.1
+Mesorhizobium opportunistum WSM2075 [RHIZ|PSYMB]	GCF_000176035.2
+Mesorhizobium sanjuanii BSA136 [RHIZ|PSYMB]	GCF_002529485.1
+Mesorhizobium sophorae ICMP 19535 [RHIZ|PSYMB]	GCF_002270415.1
+Mesorhizobium sp. AA22 [RHIZ|PSYMB]	GCF_001672375.2
+Mesorhizobium sp. M00.F.Ca.ET.151.01.1.1 [RHIZ|PSYMB]	GCA_004010475.2
+Mesorhizobium sp. M00.F.Ca.ET.216.01.1.1 [RHIZ|PSYMB]	GCF_004010325.2
+Mesorhizobium sp. M1A.F.Ca.IN.020.06.1.1 [RHIZ|PSYMB]	GCF_004023265.1
+Mesorhizobium sp. M1A.F.Ca.IN.022.04.1.1 [RHIZ|PSYMB]	GCF_003997565.1
+Mesorhizobium sp. M1B.F.Ca.ET.045.04.1.1 [RHIZ|PSYMB]	GCF_003952465.1
+Mesorhizobium sp. M1C.F.Ca.ET.144.01.1.1 [RHIZ|PSYMB]	GCF_004791725.1
+Mesorhizobium sp. M1C.F.Ca.ET.192.01.1.1 [RHIZ|PSYMB]	GCF_004022625.2
+Mesorhizobium sp. M1C.F.Ca.ET.193.01.1.1 [RHIZ|PSYMB]	GCF_004791105.1
+Mesorhizobium sp. M1D.F.Ca.ET.043.01.1.1 [RHIZ|PSYMB]	GCF_003952385.1
+Mesorhizobium sp. M1D.F.Ca.ET.234.01.1.1 [RHIZ|PSYMB]	GCF_004790975.1
+Mesorhizobium sp. M1E.F.Ca.ET.041.01.1.1 [RHIZ|PSYMB]	GCF_003997355.1
+Mesorhizobium sp. M1E.F.Ca.ET.045.02.1.1 [RHIZ|PSYMB]	GCF_003952485.1
+Mesorhizobium sp. M1E.F.Ca.ET.063.01.1.1 [RHIZ|PSYMB]	GCF_003998155.1
+Mesorhizobium sp. M2A.F.Ca.ET.043.02.1.1 [RHIZ|PSYMB]	GCF_003952405.1
+Mesorhizobium sp. M2A.F.Ca.ET.043.05.1.1 [RHIZ|PSYMB]	GCF_003952445.1
+Mesorhizobium sp. M2A.F.Ca.ET.046.03.2.1 [RHIZ|PSYMB]	GCF_003952425.1
+Mesorhizobium sp. M2D.F.Ca.ET.147.01.1.1 [RHIZ|PSYMB]	GCF_004792235.1
+Mesorhizobium sp. M2D.F.Ca.ET.224.01.1.1 [RHIZ|PSYMB]	GCF_004791515.1
+Mesorhizobium sp. M2D.F.Ca.ET.225.01.1.1 [RHIZ|PSYMB]	GCF_004791235.1
+Mesorhizobium sp. M2D.F.Ca.ET.226.01.1.1 [RHIZ|PSYMB]	GCF_004022705.2
+Mesorhizobium sp. M2D.F.Ca.ET.233.01.1.1 [RHIZ|PSYMB]	GCF_004791305.1
+Mesorhizobium sp. M2E.F.Ca.ET.166.01.1.1 [RHIZ|PSYMB]	GCF_004010465.2
+Mesorhizobium sp. M3A.F.Ca.ET.080.04.2.1 [RHIZ|PSYMB]	GCF_003952525.1
+Mesorhizobium sp. M3A.F.Ca.ET.175.01.1.1 [RHIZ|PSYMB]	GCF_004791945.1
+Mesorhizobium sp. M3A.F.Ca.ET.201.01.1.1 [RHIZ|PSYMB]	GCF_004792015.1
+Mesorhizobium sp. M1A.F.Ca.IN.022.06.1.1 [RHIZ|PSYMB]	GCF_003952605.1
+Mesorhizobium sp. M4A.F.Ca.ET.020.02.1.1 [RHIZ|PSYMB]	GCF_004022645.1
+Mesorhizobium sp. M4A.F.Ca.ET.022.05.2.1 [RHIZ|PSYMB]	GCF_003998845.1
+Mesorhizobium sp. M4A.F.Ca.ET.050.02.1.1 [RHIZ|PSYMB]	GCF_003997725.1
+Mesorhizobium sp. M4A.F.Ca.ET.090.04.2.1 [RHIZ|PSYMB]	GCF_003999085.1
+Mesorhizobium sp. M4B.F.Ca.ET.013.02.1.1 [RHIZ|PSYMB]	GCF_004023345.1
+Mesorhizobium sp. M4B.F.Ca.ET.017.02.2.1 [RHIZ|PSYMB]	GCF_003998955.1
+Mesorhizobium sp. M4B.F.Ca.ET.019.03.1.1 [RHIZ|PSYMB]	GCF_003998875.1
+Mesorhizobium sp. M4B.F.Ca.ET.049.02.1.2 [RHIZ|PSYMB]	GCF_003997455.1
+Mesorhizobium sp. M4B.F.Ca.ET.058.02.1.1 [RHIZ|PSYMB]	GCF_003952505.1
+Mesorhizobium sp. M4B.F.Ca.ET.150.01.1.1 [RHIZ|PSYMB]	GCF_004791805.1
+Mesorhizobium sp. M4B.F.Ca.ET.203.01.1.1 [RHIZ|PSYMB]	GCF_004791025.1
+Mesorhizobium sp. M5C.F.Cr.IN.023.01.1.1 [RHIZ|PSYMB]	GCF_003997585.1
+Mesorhizobium sp. M2C.T.Ca.TU.009.01.2.1 [RHIZ|PSYMB]	GCA_003997075.1
+Mesorhizobium sp. M6A.T.Cr.TU.016.01.1.1 [RHIZ|PSYMB]	GCF_003952585.1
+Mesorhizobium sp. M2D.F.Ca.ET.160.01.1.1 [RHIZ|PSYMB]	GCA_004792215.1
+Mesorhizobium sp. M6A.T.Cr.TU.017.01.1.1 [RHIZ|PSYMB]	GCF_004023115.1
+Mesorhizobium sp. M7A.F.Ca.AU.002.03.1.1 [RHIZ|PSYMB]	GCF_004022715.1
+Mesorhizobium sp. M7A.F.Ca.AU.002.06.1.1 [RHIZ|PSYMB]	GCF_003998795.1
+Mesorhizobium sp. M7A.F.Ca.CA.001.05.1.1 [RHIZ|PSYMB]	GCF_003997515.1
+Mesorhizobium sp. M7A.F.Ca.CA.001.09.1.1 [RHIZ|PSYMB]	GCF_003998465.1
+Mesorhizobium sp. M7A.F.Ca.CA.001.10.2.1 [RHIZ|PSYMB]	GCF_003998575.1
+Mesorhizobium sp. M7A.F.Ca.CA.001.12.2.1 [RHIZ|PSYMB]	GCF_003998425.1
+Mesorhizobium sp. M7A.F.Ca.CA.001.15.1.1 [RHIZ|PSYMB]	GCF_003998735.1
+Mesorhizobium sp. M7A.F.Ca.CA.001.16.1.1 [RHIZ|PSYMB]	GCF_004022815.1
+Mesorhizobium sp. M7A.F.Ca.CA.002.03.2.1 [RHIZ|PSYMB]	GCF_004022835.1
+Mesorhizobium sp. M7A.F.Ca.CA.002.11.2.1 [RHIZ|PSYMB]	GCF_004023045.1
+Mesorhizobium sp. M7A.F.Ca.CA.002.15.1.1 [RHIZ|PSYMB]	GCF_003998145.1
+Mesorhizobium sp. M7A.F.Ca.CA.004.02.1.1 [RHIZ|PSYMB]	GCF_003998385.1
+Mesorhizobium sp. M7A.F.Ca.CA.004.07.1.1 [RHIZ|PSYMB]	GCF_003998755.1
+Mesorhizobium sp. M7A.F.Ca.CA.004.08.1.1 [RHIZ|PSYMB]	GCF_003997845.1
+Mesorhizobium sp. M7A.F.Ca.CA.004.08.2.1 [RHIZ|PSYMB]	GCF_004023025.1
+Mesorhizobium sp. M7A.F.Ca.CA.004.11.2.1 [RHIZ|PSYMB]	GCF_003997955.1
+Mesorhizobium sp. M4B.F.Ca.ET.088.02.2.1 [RHIZ|PSYMB]	GCA_003998815.1
+Mesorhizobium sp. M7A.F.Ca.MR.176.00.0.0 [RHIZ|PSYMB]	GCF_004023165.1
+Mesorhizobium sp. M7A.F.Ca.US.002.01.1.1 [RHIZ|PSYMB]	GCF_004022955.1
+Mesorhizobium sp. M7A.F.Ca.US.005.03.1.1 [RHIZ|PSYMB]	GCF_003997975.1
+Mesorhizobium sp. M6A.T.Ca.TU.002.02.2.1 [RHIZ|PSYMB]	GCA_003997235.1
+Mesorhizobium sp. M7A.F.Ca.US.006.01.1.1 [RHIZ|PSYMB]	GCF_003997935.1
+Mesorhizobium sp. M7A.F.Ce.TU.012.03.2.1 [RHIZ|PSYMB]	GCF_004006095.1
+Mesorhizobium sp. M7A.T.Ca.TU.009.02.1.1 [RHIZ|PSYMB]	GCF_003997125.1
+Mesorhizobium sp. M7A.T.Ca.US.000.02.2.1 [RHIZ|PSYMB]	GCF_003996995.1
+Mesorhizobium sp. M7D.F.Ca.US.004.01.2.1 [RHIZ|PSYMB]	GCF_003997785.1
+Mesorhizobium sp. M7D.F.Ca.US.005.01.1.1 [RHIZ|PSYMB]	GCF_003952545.1
+Mesorhizobium sp. M8A.F.Ca.ET.165.01.1.1 [RHIZ|PSYMB]	GCF_004792065.1
+Mesorhizobium sp. M8A.F.Ca.ET.198.01.1.1 [RHIZ|PSYMB]	GCF_004791615.1
+Mesorhizobium sp. M8A.F.Ca.ET.207.01.1.1 [RHIZ|PSYMB]	GCF_004794715.1
+Mesorhizobium sp. M8A.F.Ca.ET.218.01.1.1 [RHIZ|PSYMB]	GCF_004791165.1
+Mesorhizobium sp. M9A.F.Ca.ET.002.03.1.2 [RHIZ|PSYMB]	GCF_003952365.1
+Mesorhizobium sp. Primo-B [RHIZ|PSYMB]	GCF_003997165.1
+Mesorhizobium sp. Root102 [RHIZ]	GCF_001425625.1
+Mesorhizobium sp. Root1471 [RHIZ]	GCF_001426965.1
+Mesorhizobium sp. Root157 [RHIZ]	GCF_001427385.1
+Mesorhizobium sp. Root172 [RHIZ]	GCF_001428205.1
+Mesorhizobium sp. Root552 [RHIZ]	GCF_001427285.1
+Mesorhizobium sp. M7A.F.Ca.MR.228.00.0.0 [RHIZ|PSYMB]	GCA_003997335.1
+Mesorhizobium sp. Root554 [RHIZ]	GCF_001427025.1
+Mesorhizobium sp. Root695 [RHIZ]	GCF_001428185.1
+Mesorhizobium sp. WSM1293 [RHIZ|PSYMB]	GCF_000513875.1
+Mesorhizobium sp. WSM1497 [RHIZ|PSYMB]	GCF_001672455.2
+Mesorhizobium sp. M7A.T.Ca.TU.009.01.1.1 [RHIZ|PSYMB]	GCA_003997045.1
+Mesorhizobium sp. M8A.F.Ca.ET.057.01.1.1 [RHIZ|PSYMB]	GCF_003952565.1
+Mesorhizobium waimense ICMP19557 [RHIZ|PSYMB]	GCF_003601975.1
+Mesorhizobium sp. USDA-HM6 [RHIZ|PSYMB]	GCA_003997145.1
+Phyllobacterium leguminum ORS 1419 [RHIZ|PSYMB]	GCF_003217235.1
+Phyllobacterium zundukense Tri-48 [RHIZ|PSYMB]	GCF_002764115.1
+Phyllobacterium zundukense Tri-38 [RHIZ|PSYMB]	GCF_002763465.1
+Pseudohoeflea suaedae YC6898 [RHIZ]	GCF_004354915.1
+Agrobacterium deltaense CNPSo 3391 [RHIZ|PSYMB]	GCF_003931535.1
+Agrobacterium rhizogenes YR147 [RHIZ]	GCF_000745725.1
+Agrobacterium rhizogenes OK036 [RHIZ]	GCF_000745735.1
+Agrobacterium rhizogenes YR530 [RHIZ]	GCF_000799905.1
+Agrobacterium rhizogenes OV677 [RHIZ]	GCF_000799715.1
+Agrobacterium rhizogenes CF263 [RHIZ]	GCF_000799685.1
+Agrobacterium rhizogenes CF262 [RHIZ]	GCF_000800035.1
+Phyllobacterium sp. 177MFSha [RHIZ]	not_announced
+Agrobacterium sp. a22-2 [RHIZ|PSYMB]	GCF_012276985.1
+Agrobacterium sp. B131/95 [PPATH]	GCF_001692155.1
+Agrobacterium sp. B133/95 [PPATH]	GCF_001692215.1
+Agrobacterium tumefaciens Cherry 2E-2-2 [RHIZ]	GCF_000349865.1
+Agrobacterium tumefaciens 233MFSha2.1 [RHIZ]	not_announced
+Agrobacterium tumefaciens 1187 [RHIZ]	GCA_006789565.1
+Rhizobium radiobacter SEMIA 410 [RHIZ|PSYMB]	GCF_014197895.1
+Rhizobium radiobacter SEMIA 435 [RHIZ|PSYMB]	GCF_014197995.1
+Rhizobium radiobacter SEMIA 436 [RHIZ|PSYMB]	GCF_014198055.1
+Rhizobium radiobacter SEMIA 437 [RHIZ|PSYMB]	GCF_014198065.1
+Rhizobium radiobacter SEMIA 440 [RHIZ|PSYMB]	GCF_014198165.1
+Rhizobium radiobacter SEMIA 4026 [RHIZ|PSYMB]	GCF_014198255.1
+Rhizobium radiobacter SEMIA 434 [RHIZ|PSYMB]	GCF_014198395.1
+Rhizobium radiobacter SEMIA 441 [RHIZ|PSYMB]	GCF_014198435.1
+Rhizobium radiobacter SEMIA 457 [RHIZ|PSYMB]	GCF_014198455.1
+Rhizobium radiobacter SEMIA 461 [RHIZ|PSYMB]	GCF_014198495.1
+Rhizobium radiobacter SEMIA 462 [RHIZ|PSYMB]	GCF_014198505.1
+Rhizobium radiobacter SEMIA 464 [RHIZ|PSYMB]	GCF_014198555.1
+Rhizobium radiobacter SEMIA 472 [RHIZ|PSYMB]	GCF_014198595.1
+Rhizobium radiobacter SEMIA 480 [RHIZ|PSYMB]	GCF_014198635.1
+Rhizobium radiobacter SEMIA 4072 [RHIZ|PSYMB]	GCF_014200255.1
+Agrobacterium tumefaciens B140/95 [PPATH]	GCF_001692245.1
+Agrobacterium tumefaciens CL32Tsu [RHIZ]	not_announced
+Ensifer alkalisoli YIC4027 [RHIZ|PSYMB]	GCF_001723275.1
+Ensifer aridi TW10 [RHIZ|PSYMB]	GCF_000510685.1
+Ensifer shofinae CCBAU 251167 [RHIZ|PSYMB]	GCA_001704765.1
+Ensifer sp. 1H6 [RHIZ]	GCF_001976035.1
+Ensifer sp. MPMI2T [RHIZ|PSYMB]	GCF_004827385.1
+Ensifer sp. Root1252 [RHIZ]	GCF_001425885.1
+Ensifer sp. Root127 [RHIZ]	GCF_001425225.1
+Ensifer sp. Root1298 [RHIZ]	GCF_001426365.1
+Ensifer sp. Root1312 [RHIZ]	GCF_001426465.1
+Ensifer sp. Root142 [RHIZ]	GCF_001426785.1
+Ensifer sp. Root231 [RHIZ]	GCF_001428785.1
+Ensifer sp. Root258 [RHIZ]	GCF_001429745.1
+Ensifer sp. Root278 [RHIZ]	GCF_001429285.1
+Ensifer sp. Root31 [RHIZ]	GCF_001424825.1
+Ensifer sp. Root423 [RHIZ]	GCF_001426275.1
+Ensifer sp. Root558 [RHIZ]	GCF_001427045.1
+Ensifer sp. Root74 [RHIZ]	GCF_001429125.1
+Ensifer sp. Root954 [RHIZ]	GCF_001429005.1
+Neorhizobium alkalisoli 1225 [RHIZ]	GCF_007829835.1
+Neorhizobium galegae bv. officinalis HAMBI 1141 [RHIZ|PSYMB]	not_announced
+Neorhizobium galegae bv. orientalis HAMBI 540 [RHIZ|PSYMB]	GCF_000731315.1
+Rhizobium aethiopicum HBR26 [RHIZ|PSYMB]	GCF_900094625.1
+Rhizobium aethiopicum SEMIA 4074 [RHIZ|PSYMB]	GCF_014197535.1
+Rhizobium aethiopicum SEMIA 428 [RHIZ|PSYMB]	GCF_014194285.1
+Rhizobium aethiopicum SEMIA 470 [RHIZ|PSYMB]	GCF_014198535.1
+Rhizobium aethiopicum SEMIA 4029 [RHIZ|PSYMB]	GCF_014194405.1
+Rhizobium alamii YR540 [RHIZ]	GCF_000744505.1
+Rhizobium alamii YR584 [RHIZ]	GCF_000799895.1
+Rhizobium anhuiense J3 [RHIZ|PSYMB]	GCF_002531645.1
+Rhizobium anhuiense S10 [RHIZ|PSYMB]	GCF_002531655.1
+Rhizobium anhuiense Y27 [RHIZ|PSYMB]	GCF_002531615.1
+Rhizobium anhuiense JX3 [RHIZ|PSYMB]	GCF_002531635.1
+Rhizobium anhuiense C15 [RHIZ|PSYMB]	GCF_002531695.1
+Rhizobium cellulosilyticum 1193 [RHIZ]	GCF_014190685.1
+Rhizobium esperanzae L15 [RHIZ|PSYMB]	GCF_014194185.1
+Rhizobium cellulosilyticum SEMIA 448 [RHIZ|PSYMB]	GCF_014198105.1
+Rhizobium cellulosilyticum SEMIA 444 [RHIZ|PSYMB]	GCF_014198155.1
+Rhizobium cellulosilyticum SEMIA 452 [RHIZ|PSYMB]	GCF_014198445.1
+Rhizobium esperanzae SEMIA 4002 [RHIZ|PSYMB]	GCF_014194355.1
+Rhizobium esperanzae SEMIA 4071 [RHIZ|PSYMB]	GCF_014194165.1
+Rhizobium esperanzae SEMIA 4089 [RHIZ|PSYMB]	GCF_014197615.1
+Rhizobium esperanzae VC28 [RHIZ|PSYMB]	GCF_014194235.1
+Rhizobium esperanzae SEMIA 414 [RHIZ|PSYMB]	GCF_014198365.1
+Rhizobium esperanzae SEMIA 420 [RHIZ|PSYMB]	GCF_014198355.1
+Rhizobium esperanzae SEMIA 468 [RHIZ|PSYMB]	GCF_014194325.1
+Rhizobium esperanzae SEMIA 487 [RHIZ|PSYMB]	GCF_014194375.1
+Rhizobium esperanzae SEMIA 4042 [RHIZ|PSYMB]	GCF_014194455.1
+Rhizobium esperanzae SEMIA 4050 [RHIZ|PSYMB]	GCF_014194475.1
+Rhizobium esperanzae SEMIA 4051 [RHIZ|PSYMB]	GCF_014194485.1
+Rhizobium esperanzae SEMIA 4053 [RHIZ|PSYMB]	GCF_014194525.1
+Rhizobium esperanzae SEMIA 4055 [RHIZ|PSYMB]	GCF_014194495.1
+Rhizobium esperanzae SEMIA 4057 [RHIZ|PSYMB]	GCF_014194555.1
+Rhizobium esperanzae SEMIA 4058 [RHIZ|PSYMB]	GCF_014194585.1
+Rhizobium etli SEMIA 403 [RHIZ|PSYMB]	GCF_014194255.1
+Rhizobium etli SEMIA 454 [RHIZ|PSYMB]	GCF_014194315.1
+Rhizobium etli SEMIA 471 [RHIZ|PSYMB]	GCF_014198605.1
+Rhizobium etli SEMIA 484 [RHIZ|PSYMB]	GCF_014194385.1
+Rhizobium etli SEMIA 489 [RHIZ|PSYMB]	GCF_014198755.1
+Rhizobium etli SEMIA 4004 [RHIZ|PSYMB]	GCF_014194425.1
+Rhizobium etli SEMIA 4061 [RHIZ|PSYMB]	GCF_014194595.1
+Rhizobium etli SEMIA 4062 [RHIZ|PSYMB]	GCF_014194575.1
+Pararhizobium giardinii SEMIA 4084 [RHIZ|PSYMB]	GCF_014200295.1
+Rhizobium grahamii CCGE 502 [RHIZ|PSYMB]	GCF_000298315.2
+Rhizobium etli bv. mimosae IE4771 [RHIZ]	not_announced
+Rhizobium hidalgonense FH14 [RHIZ|PSYMB]	GCF_002531855.1
+Rhizobium indicum JKLM12A2 [RHIZ|PSYMB]	GCF_005862305.2
+Rhizobium leguminosarum bv. trifolii WSM2297 [RHIZ]	GCF_000271845.1
+Rhizobium leguminosarum bv. trifolii WSM597 [RHIZ|PSYMB]	GCF_000271785.1
+Rhizobium leguminosarum bv. trifolii WSM2012 [RHIZ|PSYMB]	GCF_000271825.1
+Rhizobium leguminosarum bv. viciae WSM1455 [RHIZ]	GCF_000271805.1
+Rhizobium leguminosarum bv. trifolii CC278f [RHIZ]	GCF_000517045.1
+Rhizobium leguminosarum bv. trifolii WSM1689 [RHIZ|PSYMB]	GCF_000517605.1
+Rhizobium leguminosarum bv. trifolii TA1 [RHIZ|PSYMB]	GCF_000430465.3
+Rhizobium leguminosarum bv. viciae GB30 [RHIZ|PSYMB]	GCF_000419745.1
+Rhizobium leguminosarum bv. trifolii SRDI943 [RHIZ|PSYMB]	GCF_000372105.1
+Rhizobium leguminosarum bv. trifolii SRDI565 [RHIZ|PSYMB]	GCF_000371905.1
+Rhizobium leguminosarum OV483 [RHIZ]	GCF_000745655.1
+Rhizobium leguminosarum OV152 [RHIZ]	GCF_000799985.1
+Rhizobium leguminosarum CF307 [RHIZ]	GCF_000799945.1
+Rhizobium leguminosarum SEMIA 415 [RHIZ|PSYMB]	GCF_014197955.1
+Rhizobium leguminosarum SEMIA 416 [RHIZ|PSYMB]	GCF_014197975.1
+Rhizobium leguminosarum SEMIA 421 [RHIZ|PSYMB]	GCF_014198005.1
+Rhizobium leguminosarum SEMIA 430 [RHIZ|PSYMB]	GCF_014198015.1
+Rhizobium leguminosarum SEMIA 445 [RHIZ|PSYMB]	GCF_014198115.1
+Rhizobium leguminosarum SEMIA 449 [RHIZ|PSYMB]	GCF_014198095.1
+Rhizobium leguminosarum SEMIA 498 [RHIZ|PSYMB]	GCF_014198195.1
+Rhizobium leguminosarum SEMIA 4052 [RHIZ|PSYMB]	GCF_013408035.1
+Rhizobium leguminosarum SEMIA 422 [RHIZ|PSYMB]	GCF_014198335.1
+Rhizobium leguminosarum SEMIA 459 [RHIZ|PSYMB]	GCF_014198415.1
+Rhizobium leguminosarum SEMIA 460 [RHIZ|PSYMB]	GCF_014138515.1
+Rhizobium leguminosarum SEMIA 463 [RHIZ|PSYMB]	GCF_014198545.1
+Rhizobium leguminosarum SEMIA 475 [RHIZ|PSYMB]	GCF_014198665.1
+Rhizobium leguminosarum SEMIA 481 [RHIZ|PSYMB]	GCF_014198655.1
+Rhizobium leguminosarum SEMIA 482 [RHIZ|PSYMB]	GCF_014198705.1
+Rhizobium leguminosarum SEMIA 483 [RHIZ|PSYMB]	GCF_014198695.1
+Rhizobium leguminosarum SEMIA 485 [RHIZ|PSYMB]	GCF_014198735.1
+Rhizobium leguminosarum SEMIA 488 [RHIZ|PSYMB]	GCF_014206965.1
+Rhizobium leguminosarum SEMIA 491 [RHIZ|PSYMB]	GCF_014198795.1
+Rhizobium leguminosarum SEMIA 499 [RHIZ|PSYMB]	GCF_014198835.1
+Rhizobium leguminosarum SEMIA 4011 [RHIZ|PSYMB]	GCF_014205785.1
+Rhizobium leguminosarum SEMIA 4016 [RHIZ|PSYMB]	GCF_014200035.1
+Rhizobium leguminosarum SEMIA 4022 [RHIZ|PSYMB]	GCF_014200055.1
+Rhizobium leguminosarum SEMIA 4024 [RHIZ|PSYMB]	GCF_014200075.1
+Rhizobium leguminosarum SEMIA 4025 [RHIZ|PSYMB]	GCF_014207035.1
+Rhizobium leguminosarum bv. viciae BIHB 1217 [RHIZ|PSYMB]	GCF_002243365.1
+Rhizobium leguminosarum bv. viciae BIHB 1148 [RHIZ|PSYMB]	GCF_002240185.1
+Rhizobium lentis SEMIA 490 [RHIZ|PSYMB]	GCF_014198785.1
+Rhizobium lentis SEMIA 4033 [RHIZ|PSYMB]	GCF_014200135.1
+Rhizobium lentis SEMIA 4034 [RHIZ|PSYMB]	GCF_014200155.1
+Rhizobium lentis SEMIA 4036 [RHIZ|PSYMB]	GCF_014200175.1
+Rhizobium leucaenae SEMIA 492 [RHIZ|PSYMB]	GCF_014198775.1
+Rhizobium leucaenae SEMIA 4015 [RHIZ|PSYMB]	GCF_014207015.1
+Rhizobium lusitanum YR374 [RHIZ]	GCF_000799975.1
+Rhizobium lusitanum 1158 [RHIZ]	GCF_007829235.1
+Rhizobium lusitanum SEMIA 4060 [RHIZ|PSYMB]	GCF_014207095.1
+Rhizobium metallidurans DSM 26575 [RHIZ|PSYMB]	GCF_014196505.1
+Rhizobium miluonense 1234 [RHIZ]	GCF_007829155.1
+Rhizobium miluonense HAMBI 2971 [RHIZ|PSYMB]	GCF_900094545.1
+Rhizobium mongolense SEMIA 4087 [RHIZ|PSYMB]	GCF_014197625.1
+Rhizobium mongolense SEMIA 402 [RHIZ|PSYMB]	GCF_014197875.1
+Rhizobium multihospitium HAMBI 2975 [RHIZ|PSYMB]	GCF_900094585.1
+Rhizobium oryziradicis N19 [RHIZ]	GCF_001939045.1
+Rhizobium paranaense SEMIA 4064 [RHIZ|PSYMB]	GCF_014200235.1
+Rhizobium phaseoli sv. phaseoli N261 [RHIZ|PSYMB]	GCF_001664105.1
+Rhizobium phaseoli sv. phaseoli N161 [RHIZ|PSYMB]	GCF_001664165.1
+Rhizobium phaseoli sv. phaseoli N671 [RHIZ|PSYMB]	GCF_001664365.1
+Rhizobium phaseoli sv. phaseoli R723 [RHIZ|PSYMB]	GCF_001664225.1
+Rhizobium phaseoli sv. phaseoli R744 [RHIZ|PSYMB]	GCF_001664185.1
+Rhizobium phaseoli sv. phaseoli R620 [RHIZ|PSYMB]	GCF_001664245.1
+Rhizobium phaseoli sv. phaseoli N931 [RHIZ|PSYMB]	GCF_001664285.1
+Rhizobium phaseoli sv. phaseoli N841 [RHIZ|PSYMB]	GCF_001664425.1
+Rhizobium phaseoli sv. phaseoli R611 [RHIZ|PSYMB]	GCF_001664445.1
+Rhizobium phaseoli sv. phaseoli N771 [RHIZ|PSYMB]	GCF_001664405.1
+Rhizobium phaseoli sv. phaseoli R650 [RHIZ|PSYMB]	GCF_001664385.1
+Rhizobium phaseoli sv. phaseoli R630 [RHIZ|PSYMB]	GCF_001664205.1
+Rhizobium phaseoli sv. phaseoli N831 [RHIZ|PSYMB]	GCF_001664125.1
+Rhizobium mesoamericanum DSM 28449 [RHIZ|PSYMB]	not_announced
+Rhizobium rhizoryzae DSM 29514 [RHIZ]	GCF_014196605.1
+Rhizobium pisi 27/80 [RHIZ|PSYMB]	GCF_014194205.1
+Rhizobium sophoriradicis L101 [RHIZ|PSYMB]	GCF_002406495.1
+Rhizobium sophoriradicis JJW1 [RHIZ|PSYMB]	GCF_002406505.1
+Rhizobium sp. C5 [RHIZ|PSYMB]	GCF_002531935.1
+Rhizobium sp. CCGE 510 [RHIZ|PSYMB]	GCF_000292525.1
+Rhizobium sp. CF048 [RHIZ]	GCF_000799845.1
+Rhizobium sp. CF080 [RHIZ|PSYMB]	GCF_000282095.2
+Rhizobium sp. CF097 [RHIZ]	GCF_000744565.1
+Rhizobium sp. CF258 [RHIZ]	GCF_000744575.1
+Rhizobium sp. CF394 [RHIZ]	GCF_000746265.1
+Rhizobium sp. GV031 [RHIZ]	GCF_004345965.1
+Rhizobium sp. H4 [RHIZ|PSYMB]	GCF_002531775.1
+Rhizobium sp. J15 [RHIZ|PSYMB]	GCF_002531825.1
+Rhizobium sp. JKLM13E [RHIZ|PSYMB]	GCF_005860925.2
+Rhizobium sp. JKLM19E [RHIZ|PSYMB]	GCF_005862185.2
+Rhizobium sp. L18 [RHIZ|PSYMB]	GCF_002531905.1
+Rhizobium sp. L43 [RHIZ|PSYMB]	GCF_002531725.1
+Rhizobium sp. L9 [RHIZ|PSYMB]	GCF_002531885.1
+Rhizobium sp. M1 [RHIZ|PSYMB]	GCF_002531805.1
+Rhizobium sp. M10 [RHIZ|PSYMB]	GCF_002531955.1
+Rhizobium sp. N113 [RHIZ|PSYMB]	GCF_001664345.1
+Rhizobium sp. N1314 [RHIZ|PSYMB]	GCF_001664305.1
+Rhizobium sp. N1341 [RHIZ|PSYMB]	GCF_001664085.1
+Rhizobium sp. N324 [RHIZ|PSYMB]	GCF_001664485.1
+Rhizobium sp. N541 [RHIZ|PSYMB]	GCF_001675095.1
+Rhizobium sp. N561 [RHIZ|PSYMB]	GCF_001664265.1
+Rhizobium sp. N621 [RHIZ|PSYMB]	GCF_001664325.1
+Rhizobium sp. N6212 [RHIZ|PSYMB]	GCF_001664465.1
+Rhizobium sp. N731 [RHIZ|PSYMB]	GCF_001664145.1
+Rhizobium sp. N741 [RHIZ|PSYMB]	GCF_001664545.1
+Rhizobium sp. N871 [RHIZ|PSYMB]	GCF_001664525.1
+Rhizobium sp. N941 [RHIZ|PSYMB]	GCF_001675075.1
+Rhizobium sp. OK494 [RHIZ]	GCF_000746325.1
+Rhizobium sp. OK665 [RHIZ]	GCF_000745575.1
+Rhizobium sp. OV201 [RHIZ]	GCF_000745785.1
+Rhizobium sp. Root1203 [RHIZ]	GCF_001424945.1
+Rhizobium sp. Root1204 [RHIZ]	GCF_001424965.1
+Rhizobium sp. Root1212 [RHIZ]	GCF_001424985.1
+Rhizobium sp. Root1220 [RHIZ]	GCF_001426265.1
+Rhizobium sp. Root1240 [RHIZ]	GCF_001425145.1
+Rhizobium sp. Root1334 [RHIZ]	GCF_001426665.1
+Rhizobium sp. Root149 [RHIZ]	GCF_001427345.1
+Rhizobium sp. Root268 [RHIZ]	GCF_001428925.1
+Rhizobium sp. Root274 [RHIZ]	GCF_001429245.1
+Rhizobium sp. Root482 [RHIZ]	GCF_001426565.1
+Rhizobium sp. Root483D2 [RHIZ]	GCF_001426685.1
+Rhizobium sp. Root491 [RHIZ]	GCF_001427205.1
+Rhizobium sp. Root564 [RHIZ]	GCF_001427405.1
+Rhizobium sp. Root651 [RHIZ]	GCF_001427625.1
+Rhizobium sp. Root708 [RHIZ]	GCF_001429725.1
+Rhizobium sp. Root73 [RHIZ]	GCF_001429075.1
+Rhizobium sp. RSm-3 [RHIZ|PSYMB]	GCF_001854685.1
+Rhizobium sp. S9 [RHIZ|PSYMB]	GCF_002531795.1
+Rhizobium sp. WYCCWR10014 [RHIZ|PSYMB]	GCF_001657485.1
+Rhizobium sp. YR060 [RHIZ]	GCA_000746335.1
+Rhizobium sp. YR295 [RHIZ]	GCF_000745255.1
+Rhizobium sp. YR519 [RHIZ]	GCF_000746385.1
+Rhizobium sp. YR528 [RHIZ]	GCF_000799775.1
+Rhizobium taibaishanense DSM 100021 [RHIZ|PSYMB]	GCF_014196735.1
+Rhizobium tropici CF286 [RHIZ]	GCF_000800135.1
+Rhizobium tropici CIAT899 [RHIZ|PSYMB]	not_announced
+Rhizobium tropici YR635 [RHIZ]	GCF_000799925.1
+Rhizobium tropici SEMIA 4079 [RHIZ|PSYMB]	GCF_014197585.1
+Rhizobium tropici SEMIA 4059 [RHIZ|PSYMB]	GCF_014207055.1
+Rhizobium tropici SEMIA 4063 [RHIZ|PSYMB]	GCF_014200185.1
+Sinorhizobium fredii CCBAU 25509 [RHIZ]	GCF_000261865.1
+Sinorhizobium fredii CCBAU 45436 [RHIZ]	GCF_000261885.1
+Sinorhizobium fredii USDA 257 [RHIZ]	not_announced
+Sinorhizobium fredii GR64 [RHIZ]	GCF_000219415.2
+Sinorhizobium fredii PCH1 [RHIZ|PSYMB]	GCF_002531965.1
+Sinorhizobium medicae WSM1115 [RHIZ|PSYMB]	GCF_000378785.1
+Sinorhizobium medicae WSM244 [RHIZ|PSYMB]	GCF_000419785.1
+Sinorhizobium meliloti 1A42 [RHIZ]	GCA_000287435.1
+Rhizobium sp. 28MFCol1.1 [RHIZ]	not_announced
+Sinorhizobium meliloti WSM1022 [RHIZ|PSYMB]	GCF_000510665.1
+Sinorhizobium meliloti AK58 [RHIZ|PSYMB]	GCF_000473425.1
+Sinorhizobium meliloti RRI128 [RHIZ|PSYMB]	GCF_000427745.1
+Sinorhizobium meliloti 4H41 [RHIZ|PSYMB]	GCF_000375585.1
+Sinorhizobium meliloti BO21CC [RHIZ|PSYMB]	GCF_000473405.1
+Sinorhizobium meliloti GR4 [RHIZ|PSYMB]	GCF_000320385.2
+Sinorhizobium meliloti 5A14 [RHIZ]	GCA_000287415.1
+Sinorhizobium meliloti AE608H [RHIZ]	GCF_000287555.1
+Sinorhizobium meliloti AK11 [RHIZ]	GCA_000287535.1
+Sinorhizobium meliloti A0643DD [RHIZ]	GCA_000287575.1
+Sinorhizobium meliloti A0641M [RHIZ]	GCA_000287455.1
+Sinorhizobium meliloti C0431A [RHIZ]	GCA_000287375.1
+Sinorhizobium meliloti AK75 [RHIZ]	GCA_000287515.2
+Sinorhizobium meliloti C0438LL [RHIZ]	GCA_000287495.1
+Sinorhizobium sp. BJ1 [RHIZ|PSYMB]	GCF_002531555.1
+Sinorhizobium sp. FG01 [RHIZ|PSYMB]	GCF_002531875.1
+Sinorhizobium sp. NG07B [RHIZ|PSYMB]	GCF_002532005.1
+Sinorhizobium terangae SEMIA 6460 [RHIZ|PSYMB]	GCF_014197705.1
+Kandeliimicrobium roseum XY-R6 [RHIZ]	GCF_002869745.1
+Labrenzia suaedae DSM 22153 [RHIZ]	GCF_900142725.1
+Paracoccus bengalensis DSM 17099 [RHIZ]	GCF_003386575.1
+Paracoccus sphaerophysae HAMBI 3106 [RHIZ|PSYMB]	GCF_000763805.1
+Azospirillum brasilense 2A1 [RHIZ]	GCF_002245955.1
+Azospirillum brasilense sp7 [RHIZ|PSYMB]	GCF_001315015.1
+Azospirillum brasilense Az39 [RHIZ]	GCF_000632475.1
+Azospirillum halopraeferens DSM 3675 [RHIZ]	GCF_000429625.1
+Azospirillum doebereinerae GSF71 [RHIZ]	GCF_003989665.1
+Azospirillum lipoferum R1C [RHIZ]	GCF_900177475.1
+Nitrospirillum amazonense Y2 [RHIZ|PSYMB|PGPB]	GCF_000225995.1
+Azospirillum doebereinerae DSM 13131 [RHIZ]	not_announced
+Niveispirillum irakense DSM 11586 [RHIZ]	GCF_000429645.1
+Novosphingobium sp. GV002 [RHIZ]	GCF_004364785.1
+Novosphingobium sp. GV013 [RHIZ]	GCF_004364115.1
+Skermanella aerolata SEMIA 4010 [RHIZ|PSYMB]	not_announced
+Novosphingobium sp. GV027 [RHIZ]	GCF_003058095.1
+Novosphingobium sp. GV055 [RHIZ]	GCF_003050985.1
+Novosphingobium sp. GV061 [RHIZ]	GCF_003058145.1
+Novosphingobium sp. GV064 [RHIZ]	GCF_003046495.1
+Novosphingobium sp. GV079 [RHIZ]	GCF_003058045.1
+Rhizorhapis suberifaciens DSM 7465 [RHIZ]	GCF_014200045.1
+Sphingomonas endophytica DSM 101535 [RHIZ]	GCF_014199415.1
+Sphingomonas panacis DCY99 [RHIZ]	GCF_001717955.1
+Sphingomonas sp. Root1294 [RHIZ]	GCF_001426255.1
+Sphingomonas sp. Root241 [RHIZ]	GCF_001428865.1
+Sphingomonas sp. Root50 [RHIZ]	GCF_001426825.1
+Sphingomonas sp. Root710 [RHIZ]	GCF_001429065.1
+Sphingomonas sp. Root720 [RHIZ]	GCF_001428605.1
+Sphingomonas trueperi 1152a [RHIZ]	GCF_006716975.1
+Sphingomonas wittichii YR128 [RHIZ]	GCF_000744515.1
+Sphingopyxis sp. Root1497 [RHIZ]	GCF_001427085.1
+Sphingopyxis sp. Root154 [RHIZ]	GCF_001427105.1
+Sphingopyxis sp. Root214 [RHIZ]	GCF_001429105.1
+Achromobacter aloeverae AVA-1 [RHIZ]	GCF_004121055.1
+Bacillus sp. SLBN-3 [RHIZ|PSYMB|PGPB]	GCF_006715245.1
+Pseudolabrys sp. Root1462 [RHIZ]	GCF_001426945.1
+Xanthobacter tagetidis DSM 11105 [RHIZ]	GCF_014206845.1
+Xanthobacter tagetidis ATCC 700314 [RHIZ]	GCF_003667445.1
+Achromobacter sp. HZ28 [RHIZ|PSYMB]	GCF_002209495.1
+Achromobacter sp. HZ34 [RHIZ|PSYMB]	GCF_002209485.1
+Achromobacter sp. K91 [RHIZ]	GCF_003576205.1
+Achromobacter sp. Root170 [RHIZ]	GCF_001428165.1
+Achromobacter sp. Root565 [RHIZ]	GCF_001427425.1
+Achromobacter sp. Root83 [RHIZ]	GCF_001428845.1
+Alcaligenes faecalis AU14 [RHIZ]	GCF_005311025.1
+Sphingomonas sp. 220AMFTsu3.1 [RHIZ]	not_announced
+Sphingomonas zeicaulis DSM 100587 [RHIZ]	not_announced
+Pusillimonas sp. YR330 [RHIZ]	GCF_004339425.1
+Burkholderia cenocepacia CR318 [RHIZ]	GCF_002007585.1
+Burkholderia cepacia 561 [RHIZ]	GCF_007829215.1
+Burkholderia novacaledonica LMG 28615 [RHIZ]	GCF_900258035.1
+Burkholderia sp. 604 [RHIZ]	GCF_007829195.1
+Burkholderia sp. KJ006 [RHIZ|PSYMB|HAPATH]	not_announced
+Burkholderia sp. UYPR1.413 [RHIZ|PSYMB]	GCF_000519245.1
+Burkholderia silvatlantica PVA5 [RHIZ]	not_announced
+Burkholderia vietnamiensis HI2297 [RHIZ]	GCF_001718815.1
+Burkholderia vietnamiensis MSMB608WGS [RHIZ]	GCF_001718915.1
+Cupriavidus gilardii JZ4 [RHIZ|PSYMB|PGPB]	GCF_001658125.1
+Paraburkholderia dipogonis ICMP 19430 [RHIZ|PSYMB]	GCF_004402975.1
+Paraburkholderia fungorum SEMIA 4007 [RHIZ|PSYMB]	GCF_014198855.1
+Paraburkholderia fungorum SEMIA 4013 [RHIZ|PSYMB]	GCF_014205755.1
+Paraburkholderia fungorum SEMIA 4056 [RHIZ|PSYMB]	GCF_014200165.1
+Paraburkholderia kirstenboschensis RAU2d2 [RHIZ|PSYMB]	GCA_001636965.1
+Paraburkholderia kururiensis M130 [RHIZ]	GCF_000341045.1
+Paraburkholderia nodosa DSM 21604 [RHIZ|PSYMB]	GCF_000519185.1
+Paraburkholderia piptadeniae STM7183 [RHIZ|PSYMB]	GCF_900007165.1
+Paraburkholderia ribeironis STM 7296 [RHIZ|PSYMB]	GCF_900019265.1
+Paraburkholderia sp. GV052 [RHIZ]	GCF_003208595.1
+Paraburkholderia sp. GV060 [RHIZ]	GCF_004341315.1
+Paraburkholderia sp. GV068 [RHIZ]	GCF_003058125.1
+Paraburkholderia sp. GV072 [RHIZ]	GCF_003050715.1
+Paraburkholderia sp. GV073 [RHIZ]	GCF_004346905.1
+Paraburkholderia sprentiae WSM5005 [RHIZ|PPATH]	GCF_001865575.1
+Paraburkholderia silvatlantica SRMrh-20 [RHIZ]	not_announced
+Paraburkholderia tuberum STM678 [RHIZ|PSYMB]	not_announced
+Ralstonia sp. UNCCL144 [RHIZ]	GCF_900099845.1
+Acidovorax radicis N35 [RHIZ|PSYMB|PGPB]	GCF_000204195.1
+Acidovorax radicis N35v [RHIZ|PSYMB|PGPB]	GCF_000204215.1
+Acidovorax radicis 2721A [RHIZ]	GCF_007828905.1
+Acidovorax sp. CF301 [RHIZ]	GCF_003053545.1
+Acidovorax sp. CF316 [RHIZ|PSYMB]	GCF_000276605.1
+Nocardioides sp. SLBN-35 [RHIZ|PSYMB|PGPB]	GCF_006715725.1
+Acidovorax sp. Root217 [RHIZ]	GCF_001428645.1
+Acidovorax sp. Root219 [RHIZ]	GCF_001428665.1
+Acidovorax sp. Root267 [RHIZ]	GCF_001429215.1
+Acidovorax sp. Root275 [RHIZ]	GCF_001428965.1
+Acidovorax sp. Root402 [RHIZ]	GCF_001425125.1
+Acidovorax sp. Root568 [RHIZ]	GCF_001427445.1
+Acidovorax sp. Root70 [RHIZ]	GCF_001428225.1
+Delftia sp. HK171 [RHIZ]	GCF_001886655.1
+Diaphorobacter ruginosibacter DSM 27467 [RHIZ|PSYMB]	GCF_014395975.1
+Pelomonas sp. BT06 [RHIZ]	GCF_003550215.1
+Pelomonas sp. Root1217 [RHIZ]	GCF_001425705.1
+Pelomonas sp. Root1237 [RHIZ]	GCF_001425055.1
+Pelomonas sp. Root1444 [RHIZ]	GCF_001426885.1
+Pelomonas sp. Root405 [RHIZ]	GCF_001425165.1
+Pelomonas sp. Root662 [RHIZ]	GCF_001427705.1
+Variovorax gossypii DSM 100435 [RHIZ]	GCF_003965815.1
+Variovorax sp. 1180 [RHIZ]	GCF_007829135.1
+Variovorax guangxiensis 34/80 [RHIZ|PSYMB]	GCF_014197655.1
+Variovorax sp. 369 [RHIZ]	GCF_003955655.1
+Variovorax sp. GV008 [RHIZ]	GCF_004341565.1
+Variovorax sp. BT01 [RHIZ]	GCF_004340105.1
+Variovorax sp. GV040 [RHIZ]	GCF_003053685.1
+Variovorax sp. GV051 [RHIZ]	GCF_004345975.1
+Variovorax sp. 160MFSha2.1 [RHIZ]	not_announced
+Variovorax sp. 278MFTsu5.1 [RHIZ]	not_announced
+Variovorax sp. 350MFTsu5.1 [RHIZ]	not_announced
+Variovorax sp. 375MFSha3.1 [RHIZ]	not_announced
+Variovorax sp. Root318D1 [RHIZ]	GCF_001424835.1
+Variovorax sp. Root411 [RHIZ]	GCF_001425205.1
+Variovorax sp. Root434 [RHIZ]	GCF_001426595.1
+Variovorax paradoxus 295MFChir4.1 [RHIZ]	not_announced
+Variovorax paradoxus 349MFTsu5.1 [RHIZ]	not_announced
+Variovorax paradoxus 369MFTsu5.1 [RHIZ]	not_announced
+Variovorax paradoxus CL14 [RHIZ]	not_announced
+Variovorax sp. Root473 [RHIZ]	GCF_001426505.1
+Collimonas arenae 515 [RHIZ]	GCF_007829005.1
+Duganella sp. 1224 [RHIZ]	GCF_013408245.1
+Duganella sp. GV039 [RHIZ]	GCF_003259655.1
+Duganella sp. GV053 [RHIZ]	GCF_003208105.1
+Duganella sp. GV066 [RHIZ]	GCF_003259495.1
+Duganella sp. GV083 [RHIZ]	GCF_003217375.1
+Duganella sp. GV089 [RHIZ]	GCF_003688795.1
+Duganella sp. Root1480D1 [RHIZ]	GCF_001427305.1
+Duganella sp. Root198D2 [RHIZ]	GCF_001428585.1
+Duganella sp. Root336D2 [RHIZ]	GCF_001425005.1
+Herbaspirillum hiltneri N3 [RHIZ]	GCF_001267925.1
+Herbaspirillum hiltneri 3195 [RHIZ]	GCF_007829115.1
+Herbaspirillum huttiense 1147 [RHIZ]	GCF_007829175.1
+Herbaspirillum lusitanum P6-12 [RHIZ|PSYMB]	GCF_000256565.1
+Herbaspirillum robiniae AA6 [RHIZ]	GCF_002025725.1
+Herbaspirillum robiniae HZ10 [RHIZ|PSYMB]	GCF_002213415.1
+Herbaspirillum seropedicae Os34 [RHIZ]	GCF_000300435.2
+Herbaspirillum seropedicae Z67 [RHIZ]	GCF_001040945.1
+Herbaspirillum sp. 3C11 [RHIZ|PSYMB]	GCF_004563825.1
+Herbaspirillum sp. 3R-11 [RHIZ|PSYMB]	GCF_004563895.1
+Herbaspirillum sp. 3R-3a1 [RHIZ|PSYMB]	GCF_003400355.1
+Herbaspirillum sp. 3R11 [RHIZ|PSYMB]	GCF_004563925.1
+Massilia sp. GV016 [RHIZ]	GCF_003053825.1
+Massilia sp. GV045 [RHIZ]	GCF_003053665.1
+Massilia sp. GV090 [RHIZ]	GCF_004341465.1
+Massilia sp. GV097 [RHIZ]	GCF_004343185.1
+Massilia sp. Root133 [RHIZ]	GCF_001426525.1
+Massilia sp. Root1485 [RHIZ]	GCF_001427325.1
+Massilia sp. Root335 [RHIZ]	GCF_001425685.1
+Massilia sp. Root351 [RHIZ]	GCF_001425045.1
+Massilia sp. Root418 [RHIZ]	GCF_001425265.1
+Noviherbaspirillum sp. Root189 [RHIZ]	GCF_001428545.1
+Azovibrio restrictus DSM 23866 [RHIZ]	GCF_000429665.1
+Azospira oryzae DSM 21223 [RHIZ]	GCF_004217225.1
+Methylibium sp. CF059 [RHIZ]	GCF_000799305.1
+Methylibium sp. CF468 [RHIZ]	GCF_000799605.1
+Methylibium sp. Root1272 [RHIZ]	GCF_001425905.1
+Methylibium sp. YR605 [RHIZ]	GCF_000800095.1
+Mitsuaria noduli HZ7 [RHIZ|PSYMB]	GCA_002205125.1
+Rhizobacter sp. OV335 [RHIZ]	GCF_900142965.1
+Rhizobacter sp. Root1221 [RHIZ]	GCF_001425785.1
+Rhizobacter sp. Root1238 [RHIZ]	GCF_001425825.1
+Rhizobacter sp. Root16D2 [RHIZ]	GCF_001428145.1
+Rhizobacter sp. Root29 [RHIZ]	GCF_001424785.1
+Rhizobacter sp. Root404 [RHIZ]	GCF_001425865.1
+Azoarcus indigens DSM 12121 [RHIZ]	GCF_004361735.1
+Azospira oryzae 6a3 [RHIZ]	not_announced
+Arcobacter nitrofigilis DSM 7299 [RHIZ|PSYMB]	GCF_000092245.1
+Azoarcus communis DSM 12120 [RHIZ]	not_announced
+Desulfofaba hansenii DSM 12642 [RHIZ]	not_announced
+Alteromonadaceae bacterium XY-R5 [RHIZ]	GCA_001660395.1
+Atlantibacter hermannii DDE1 [RHIZ|PSYMB|PGPB]	GCF_000878365.1
+Enterobacter asburiae 1216 [RHIZ]	GCF_003634515.1
+Enterobacter asburiae 609 [RHIZ]	GCF_011758755.1
+Enterobacter ludwigii AA4 [RHIZ]	GCF_002025685.1
+Enterobacter sp. HK169 [RHIZ|PSYMB|PGPB]	GCF_001719105.1
+Enterobacter sp. R4-368 [RHIZ]	not_announced
+Enterobacter sp. Sa187 [RHIZ]	GCF_001888805.2
+Klebsiella variicola DSM 15968 [RHIZ]	GCF_000828055.2
+Klebsiella variicola DX120E [RHIZ]	GCF_000812205.2
+Kosakonia oryzae Ola 51 [RHIZ|PSYMB|PGPB]	GCF_001658025.2
+Kosakonia pseudosacchari NN143 [RHIZ]	GCF_002510255.1
+Kosakonia sacchari SP1 [RHIZ|PSYMB]	not_announced
+Mangrovibacter phragmitis MP23 [RHIZ]	GCF_001655675.1
+Phytobacter diazotrophicus DSM 17806	GCA_004346725.1
+Raoultella planticola ATCC 33531 [RHIZ]	GCF_000735435.1
+Raoultella terrigena R1Gly [RHIZ]	GCF_000964285.1
+Pantoea ananatis NN08200 [RHIZ]	GCF_004028255.1
+Pantoea coffeiphila 342 [RHIZ]	GCF_002976475.1
+Pantoea endophytica 596 [RHIZ]	GCF_002858935.1
+Serratia odorifera 4Rx13 [RHIZ]	not_announced
+Acinetobacter calcoaceticus GK1 [RHIZ|PSYMB|PGPB]	GCF_000952075.1
+Acinetobacter sp. 3636 [RHIZ]	GCF_004339785.1
+Acinetobacter sp. 3664 [RHIZ]	GCF_004364945.1
+Acinetobacter sp. Root1280 [RHIZ]	GCF_001425285.1
+Marinobacterium mangrovicola DSM 27697 [RHIZ]	GCF_004339595.1
+Marinobacterium rhizophilum DSM 18822 [RHIZ]	GCF_000378045.1
+Dickeya zeae ZJU1202 [PPATH]	GCF_000264075.1
+Psychrosphaera haliotis UCD-MCMsp1aY [RHIZ]	GCF_009728465.1
+Pseudomonas aeruginosa PGPR2 [RHIZ]	GCA_000412735.1
+Pseudomonas brassicacearum TM1A3 [RHIZ|PSYMB]	GCF_001269635.1
+Pseudomonas brassicacearum L13-6-12 [RHIZ]	GCF_001746815.1
+Pseudomonas chlororaphis HT66 [RHIZ]	GCF_000597925.1
+Pseudomonas chlororaphis piscium PCL1391 [RHIZ|PSYMB]	GCF_001630695.1
+Pseudomonas chlororaphis PA23 [RHIZ]	not_announced
+Pseudomonas fluorescens 513 [RHIZ]	GCF_014194145.1
+Pseudomonas fluorescens PICF7 [RHIZ]	GCF_000963495.1
+Pseudomonas fluorescens Ps006 [RHIZ|PSYMB|PGPB]	GCF_001541845.1
+Pseudomonas graminis WP_8 [RHIZ]	GCF_004364335.1
+Pseudomonas kilonensis P12 [RHIZ|PSYMB]	GCF_001269725.1
+Pseudomonas fluorescens PF5 [RHIZ|PSYMB]	not_announced
+Pseudomonas mosselii PtA1 [RHIZ]	GCF_002736065.1
+Pseudomonas protegens CHA0 [RHIZ|PSYMB|PGPB]	GCF_000397205.1
+Pseudomonas protegens FDAARGOS_307 [RHIZ]	GCF_002208745.2
+Pseudomonas protegens H1F10C [RHIZ]	GCF_013407945.1
+Pseudomonas putida MTCC 5279 [RHIZ]	GCF_000411615.1
+Pseudomonas putida AA7 [RHIZ]	GCF_002025705.1
+Pseudomonas sp. 478 [RHIZ]	GCF_003254125.1
+Pseudomonas sp. 443 [RHIZ]	GCF_003384805.1
+Pseudomonas sp. 424 [RHIZ]	GCF_003386005.1
+Pseudomonas sp. 460 [RHIZ]	GCF_004346485.1
+Pseudomonas sp. 113MF [RHIZ]	not_announced
+Pseudomonas sp. DR 5-09 [RHIZ]	GCF_001655595.1
+Pseudomonas sp. GM102 [RHIZ|PSYMB]	GCF_000282555.1
+Pseudomonas sp. GM16 [RHIZ|PSYMB]	GCF_000282155.1
+Pseudomonas sp. GM17 [RHIZ|PSYMB]	GCF_000282175.1
+Pseudomonas sp. GM18 [RHIZ|PSYMB]	GCF_000282195.1
+Pseudomonas sp. GM21 [RHIZ|PSYMB]	GCF_000282215.1
+Pseudomonas sp. GM24 [RHIZ|PSYMB]	GCF_000282235.1
+Pseudomonas sp. GM25 [RHIZ|PSYMB]	GCF_000282255.1
+Pseudomonas sp. GM30 [RHIZ|PSYMB]	GCF_000282275.2
+Pseudomonas sp. GM33 [RHIZ|PSYMB]	GCF_000282295.1
+Pseudomonas sp. GM48 [RHIZ|PSYMB]	GCF_000282335.1
+Pseudomonas sp. GM49 [RHIZ|PSYMB]	GCF_000282355.1
+Pseudomonas sp. GM50 [RHIZ|PSYMB]	GCF_000282375.1
+Pseudomonas sp. GM55 [RHIZ|PSYMB]	GCF_000282395.1
+Pseudomonas sp. GM60 [RHIZ|PSYMB]	GCF_000282415.1
+Pseudomonas sp. GM67 [RHIZ|PSYMB]	GCF_000282435.1
+Pseudomonas sp. GM74 [RHIZ|PSYMB]	GCF_000282455.1
+Pseudomonas sp. GM78 [RHIZ|PSYMB]	GCF_000282475.1
+Pseudomonas sp. GM79 [RHIZ|PSYMB]	GCF_000282495.1
+Pseudomonas sp. GM80 [RHIZ|PSYMB]	GCF_000282515.1
+Pseudomonas sp. GM84 [RHIZ|PSYMB]	GCF_000282535.1
+Pseudomonas sp. GR 6-02 [RHIZ]	GCF_001655615.1
+Pseudomonas sp. GV012 [RHIZ]	GCF_003053625.1
+Pseudomonas sp. GV021 [RHIZ]	GCF_003054105.1
+Pseudomonas sp. GV041 [RHIZ]	GCF_003053605.1
+Pseudomonas sp. GV047 [RHIZ]	GCF_003058245.1
+Pseudomonas sp. GV054 [RHIZ]	GCF_003053695.1
+Pseudomonas sp. GV058 [RHIZ]	GCF_003217435.1
+Pseudomonas sp. GV071 [RHIZ]	GCF_003050835.1
+Pseudomonas sp. GV077 [RHIZ]	GCF_004345935.1
+Pseudomonas sp. GV085 [RHIZ]	GCF_003050925.1
+Pseudomonas sp. GV087 [RHIZ]	GCF_004364075.1
+Pseudomonas sp. GV091 [RHIZ]	GCF_003053805.1
+Pseudomonas sp. GV105 [RHIZ]	GCF_003058185.1
+Pseudomonas sp. MIACH [RHIZ]	GCF_001269925.1
+Rhizobium sp. SLBN-4 [RHIZ|PSYMB|PGPB]	GCF_006716665.1
+Pseudomonas sp. P97.38 [RHIZ|PSYMB]	GCF_001269745.1
+Pseudomonas sp. Q12-87 [RHIZ|PSYMB]	GCF_001269755.1
+Pseudomonas sp. Root329 [RHIZ]	GCF_001424925.1
+Pseudomonas sp. Root401 [RHIZ]	GCF_001425105.1
+Pseudomonas sp. Root562 [RHIZ]	GCF_001427125.1
+Pseudomonas sp. Root569 [RHIZ]	GCF_001427465.1
+Pseudomonas sp. Root68 [RHIZ]	GCF_001427765.1
+Pseudomonas sp. Root71 [RHIZ]	GCF_001429045.1
+Pseudomonas sp. Root9 [RHIZ]	GCF_001429205.1
+Pseudomonas thivervalensis PITR2 [RHIZ|PSYMB]	GCF_001269685.1
+Pseudomonas veronii R4 Genome sequencing [RHIZ]	GCF_000836475.1
+Pseudomonas sp. SLBN-2 [RHIZ|PSYMB|PGPB]	GCF_006715345.1
+Celerinatantimonas diazotrophica DSM 18577 [RHIZ]	GCF_004339545.1
+Dyella sp. YR388 [RHIZ]	GCF_003688835.1
+Luteibacter sp. UNCMF366Tsu5.1 [RHIZ]	GCF_900119235.1
+Luteibacter sp. UNCMF331Sha3.1 [RHIZ]	GCF_900109915.1
+Luteibacter sp. OK325 [RHIZ]	GCF_003050935.1
+Luteibacter yeojuensis 583 [RHIZ]	GCF_007829075.1
+Pseudomonas sp. 395MF [RHIZ]	not_announced
+Pseudomonas sp. 397MF [RHIZ]	not_announced
+Rhodanobacter sp. Root179 [RHIZ]	GCF_001428465.1
+Rhodanobacter sp. Root480 [RHIZ]	GCF_001426645.1
+Rhodanobacter sp. Root561 [RHIZ]	GCF_001427365.1
+Rhodanobacter sp. Root627 [RHIZ]	GCF_001427835.1
+Rhodanobacter sp. T12-5 [RHIZ]	GCF_008329435.1
+Rhodanobacter spathiphylli B39 [RHIZ]	GCF_000264295.1
+Cellvibrio sp. YR554 [RHIZ]	GCF_004363885.1
+Lysobacter sp. Root494 [RHIZ]	GCF_001427225.1
+Lysobacter sp. Root559 [RHIZ]	GCF_001427065.1
+Lysobacter sp. Root604 [RHIZ]	GCF_001427505.1
+Lysobacter sp. Root667 [RHIZ]	GCF_001427715.1
+Lysobacter sp. Root690 [RHIZ]	GCF_001427785.1
+Lysobacter sp. Root76 [RHIZ]	GCF_001428685.1
+Lysobacter sp. Root916 [RHIZ]	GCF_001429785.1
+Lysobacter sp. Root96 [RHIZ]	GCF_001429315.1
+Lysobacter sp. Root983 [RHIZ]	GCF_001429345.1
+Pseudoxanthomonas sp. Root630 [RHIZ]	GCF_001427585.1
+Pseudoxanthomonas sp. Root65 [RHIZ]	GCF_001427635.1
+Stenotrophomonas maltophilia 1190 (v2) [RHIZ]	GCF_006716455.1
+Stenotrophomonas maltophilia RR-10 [RHIZ|PPATH]	GCF_000237025.1
+Stenotrophomonas maltophilia AA1 [RHIZ]	GCF_002025605.1
+Stenotrophomonas maltophilia SEMIA 4027 [RHIZ|PSYMB]	GCF_014200115.1
+Stenotrophomonas sp. WCS2014-113 [RHIZ]	not_announced
+Xanthomonas sp. WCS2014-23 [RHIZ]	not_announced
+Xanthomonas translucens 569 [RHIZ]	GCF_007829315.1
+Rahnella aquatilis OV744 [RHIZ]	GCF_000799835.1
+Rahnella aquatilis OV588 [RHIZ]	GCF_000799815.1
+Serratia plymuthica AS9 [RHIZ|PSYMB|PGPB]	GCF_000214235.1
+Serratia plymuthica AS12 [RHIZ]	GCF_000214195.1
+Serratia plymuthica 3Rp8 [RHIZ|PSYMB|PGPB]	GCF_001663115.1
+Opitutaceae bacterium EW11 [RHIZ]	GCA_003054665.1
+Haloferula luteola DSM 21608 [RHIZ]	GCF_014201715.1
+Candidatus Xiphinematobacter sp. Idaho Grape [RHIZ|PSYMB|HAPATH]	GCF_001318295.1
+Haloferula sp. BvORR071 [RHIZ]	GCA_000739615.1
+Verrucomicrobium sp. BvORR034 [RHIZ]	GCA_000739635.1
+Verrucomicrobium sp. BvORR106 [RHIZ]	GCA_000739655.1

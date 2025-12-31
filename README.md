@@ -17,6 +17,7 @@ The pipeline allows you to choose from several workflows based on the tools and 
 
 Each workflow is designed to be run with a specific set of input files and produces a set of output files. The tool also supports running on multiple threads to improve performance.
 
+We plan to add more functionalities and workflows in future versions. If you need a specific feature, you are welcome to open an issue or submit a pull request.
 
 # Installation:
 
@@ -33,10 +34,13 @@ If conda not work for you, you can install the dependences mannualy without a se
 
 # Usage:
 
-if you want to learn how to use the PGPg_finder, click the link below:
+if you want to learn how to use the PGPg_finder in a detailed way, click the link below:
 
 [Tutorial](https://github.com/tpellegrinetti/PGPg_finder/blob/main/Tutorial.md)
 
+
+You can check the available commands in PGPg_finder by running:
+`python PGPg_finder.py -h` After that, you need to choose one of the available workflows.
 
 You can run the PGPg_finder tool using the following command:
 
@@ -45,12 +49,12 @@ You can run the PGPg_finder tool using the following command:
 the -a argument is optional and works if you want to provide assembly files
 
 
-1) Running PGPg_finder with genomes:
+1) Running PGPg_finder with GENOMES or MAGs:
 
 `python PGPg_finder.py -w genome_wf -i /path/to/fasta/folder/ -o /path/to/your/desired/out/ -t 12`
 
 
-2) Running PGPg_finder with metagenomes:
+2) Running PGPg_finder with METAGENOMES:
  
 a) Fast way (less accurated)
 
@@ -99,11 +103,20 @@ If PGPg_finder was useful for you please cite us:
 Pellegrinetti, TA; Monteiro, G; Lemos, LN; RAC, Santos; Barros, A; Mendes, L. (2024) PGPg_finder: A Comprehensive and User-friendly Pipeline for Identifying Plant Growth-Promoting Genes in Genomic and Metagenomic Data. Rhizosphere.
 
 # Issues in Database Downloading
-If you are having trouble downloading the database, you can download it manually here:
+PGPg_finder relies on databases from PLaBaSe, which may be temporarily unavailable at certain times. If you experience issues downloading the databases through install.sh, you can download them manually from the links below.
 
+PGPT_BASE_nr (For genomes):
 https://plabase.cs.uni-tuebingen.de/pb/tools/PGPTblhm/data/factors/PGPT_BASE_nr_Aug2021n_ul_1.fasta.gz
 
+mgPGPT-db (For metagenomes)
 https://plabase.cs.uni-tuebingen.de/pb/tools/PGPTblhm/data/factors/mgPGPT/mgPGPT-db_Feb2022_ul_dwnld.fasta.gz
+
+If this links is not working you can alternative use this links:
+PGPT_BASE_nr:
+https://unitc-my.sharepoint.com/:u:/r/personal/iijag01_cloud_uni-tuebingen_de/Documents/PLaBAse/PGPT_BASE_nr_Aug2021n_ul_1.fasta.gz?csf=1&web=1&e=jhBIlL
+
+mgPGPT-db:
+https://unitc-my.sharepoint.com/:u:/r/personal/iijag01_cloud_uni-tuebingen_de/Documents/PLaBAse/mgPGPT-db_Feb2022_ul_dwnld.fasta.gz?csf=1&web=1&e=yZ2XCT
 
 Place these files in the database folder of PGPg_finder and run the following commands:
 ```

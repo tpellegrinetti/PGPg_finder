@@ -112,11 +112,10 @@ mgPGPT-db (For metagenomes)
 https://plabase.cs.uni-tuebingen.de/pb/tools/PGPTblhm/data/factors/mgPGPT/mgPGPT-db_Feb2022_ul_dwnld.fasta.gz
 
 If this links is not working you can alternative use this links:
-PGPT_BASE_nr:
-https://unitc-my.sharepoint.com/:u:/r/personal/iijag01_cloud_uni-tuebingen_de/Documents/PLaBAse/PGPT_BASE_nr_Aug2021n_ul_1.fasta.gz?csf=1&web=1&e=jhBIlL
-
-mgPGPT-db:
-https://unitc-my.sharepoint.com/:u:/r/personal/iijag01_cloud_uni-tuebingen_de/Documents/PLaBAse/mgPGPT-db_Feb2022_ul_dwnld.fasta.gz?csf=1&web=1&e=yZ2XCT
+Download the following folder:
+`https://unitc-my.sharepoint.com/personal/iijag01_cloud_uni-tuebingen_de/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fiijag01%5Fcloud%5Funi%2Dtuebingen%5Fde%2FDocuments%2FPLaBAse&ga=1`
+PGPT_BASE_nr: PGPT_BASE_nr_Aug2021n_ul_1.fasta.gz
+mgPGPT-db: mgPGPT-db_Feb2022_ul_dwnld.fasta.gz
 
 Place these files in the database folder of PGPg_finder and run the following commands:
 ```

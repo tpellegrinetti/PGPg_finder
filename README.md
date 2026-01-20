@@ -114,7 +114,7 @@ https://plabase.cs.uni-tuebingen.de/pb/tools/PGPTblhm/data/factors/mgPGPT/mgPGPT
 If this links is not working you can alternative use this links:
 Download the following folder:
 
-`https://unitc-my.sharepoint.com/:f:/g/personal/iijag01_cloud_uni-tuebingen_de/IgD-z6ZxAOzKSqoe_KS4yGhaAZGXBp3bG1sJO9sy8OvCXfM?e=Ri6waL`
+`https://unitc-my.sharepoint.com/:f:/g/personal/iijag01_cloud_uni-tuebingen_de/IgD-z6ZxAOzKSqoe_KS4yGhaAZGXBp3bG1sJO9sy8OvCXfM?e=TsC7sI`
 
 PGPT_BASE_nr: PGPT_BASE_nr_Aug2021n_ul_1.fasta.gz
 mgPGPT-db: mgPGPT-db_Feb2022_ul_dwnld.fasta.gz
